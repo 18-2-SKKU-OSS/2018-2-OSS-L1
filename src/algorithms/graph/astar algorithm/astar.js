@@ -3,7 +3,7 @@
  * @param {GraphVertex} startVertex
  * @param {Callbacks} [callbacks]
  */
-export default function depthFirstSearch(graph, startVertex, callbacks) {
+export default function astar(graph, startVertex, callbacks) {
   const distances = {};
   const previousVertices = {};
 
