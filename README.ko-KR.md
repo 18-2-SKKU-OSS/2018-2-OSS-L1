@@ -91,15 +91,15 @@ _Read this in other languages:_
   * `B` [이진 탐색](src/algorithms/search/binary-search) - 정렬된 배열에서 탐색
   * `B` [보간 탐색](src/algorithms/search/interpolation-search) - 균등한 분포를 이루는 정렬된 배열에서 탐색
 * **Sorting**
-  * `B` [거품 정렬](src/algorithms/sorting/bubble-sort)
-  * `B` [선택 정렬](src/algorithms/sorting/selection-sort)
-  * `B` [삽입 정렬](src/algorithms/sorting/insertion-sort)
-  * `B` [힙 정렬](src/algorithms/sorting/heap-sort)
-  * `B` [병합 정렬](src/algorithms/sorting/merge-sort)
+  * `B` [거품 정렬](src/algorithms/sorting/bubble-sort) (bubble-sort)
+  * `B` [선택 정렬](src/algorithms/sorting/selection-sort) (selection sort)
+  * `B` [삽입 정렬](src/algorithms/sorting/insertion-sort) (insertion sort)
+  * `B` [힙 정렬](src/algorithms/sorting/heap-sort) (heap sort)
+  * `B` [병합 정렬](src/algorithms/sorting/merge-sort) (merge sort)
   * `B` [퀵 정렬](src/algorithms/sorting/quick-sort) - 제자리(in-place)와 제자리가 아닌(non-in-place) 구현
-  * `B` [셸 정렬](src/algorithms/sorting/shell-sort)
-  * `B` [계수 정렬](src/algorithms/sorting/counting-sort)
-  * `B` [기수 정렬](src/algorithms/sorting/radix-sort)
+  * `B` [셸 정렬](src/algorithms/sorting/shell-sort) (shell sort)
+  * `B` [계수 정렬](src/algorithms/sorting/counting-sort) (counting sort)
+  * `B` [기수 정렬](src/algorithms/sorting/radix-sort) (radix sort)
 * **Trees**
   * `B` [깊이 우선 탐색](src/algorithms/tree/depth-first-search) (DFS)
   * `B` [너비 우선 탐색](src/algorithms/tree/breadth-first-search) (BFS)
