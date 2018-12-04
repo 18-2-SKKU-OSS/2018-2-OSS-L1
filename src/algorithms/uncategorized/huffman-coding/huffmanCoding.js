@@ -1,4 +1,4 @@
-log = console.log.bind(console);
+// log = console.log.bind(console);
 
 var Heap = function(fn) {
   this.fn = fn || function(e) {
@@ -119,6 +119,8 @@ var Huffman = {
 };
 
 var enc = Huffman.encode('TESTTESTTESTTESTTESTTESTTESTTEST123abc');
-log(enc);
+// log(enc);
+console.log(enc);
 var dec = Huffman.decode(enc);
-log(dec);
+console.log(dec);
+// log(dec);

@@ -10,9 +10,9 @@ The output from Huffman's algorithm can be viewed as a variable-length code tabl
 ![Constructing a Huffman Tree](https://en.wikipedia.org/wiki/Huffman_coding#/media/File:HuffmanCodeAlg.png)
 
 
-<<Basic Two functio>>
+###Basic Two function
 
-'Encode : Compression'
+####Encode : Compression
 The simplest construction algorithm uses a priority queue where the node with lowest probability is given highest priority:
 
 1. Create a leaf node for each symbol and add it to the priority queue.
@@ -35,10 +35,7 @@ If the symbols are sorted by probability, there is a linear-time (O(n)) method t
 
 
 
-'Decode : Decompression'
-
-
-
+####Decode : Decompression
 
 
 
