@@ -13,3 +13,4 @@ The output from Huffman's algorithm can be viewed as a variable-length code tabl
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Huffman_coding)
+- [GitHub](https://gist.github.com/1995eaton/86f10f4d0247b4e4e65e)
