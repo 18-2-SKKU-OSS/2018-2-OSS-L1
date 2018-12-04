@@ -6,9 +6,9 @@ The output from Huffman's algorithm can be viewed as a variable-length code tabl
 
 
 
-<!--![Hanoi Tower](https://upload.wikimedia.org/wikipedia/commons/8/8d/Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif)-->
+![Constructing a Huffman Tree](https://en.wikipedia.org/wiki/File:HuffmanCodeAlg.png)
 <!--With `3` disks, the puzzle can be solved in `7` moves. The minimal -->
-
+https://en.wikipedia.org/wiki/File:HuffmanCodeAlg.png
 
 ## References
 
