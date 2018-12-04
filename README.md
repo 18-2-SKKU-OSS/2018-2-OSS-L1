@@ -1,3 +1,17 @@
+# Welcome to the 2018-2-OSS-L1 wiki!
+
+
+
+팀장 : 최창안 / 2012310793 / orist22@gmail.com / orist22
+
+팀원 : 류민재 / 2015310965 / lminjae0313@gmail.com / MinjaeLyou
+
+      김윤지 / 2016312595 / gunvo88@naver.com / yunjiyunji
+
+      김민기 / 2014313107 / rlaalsrl7777@gmail.com / Minki-Kim95
+
+      김장영 / 2014314068 / kjy276@naver.com / kjy276
+
 # JavaScript Algorithms and Data Structures
 
 [![Build Status](https://travis-ci.org/trekhleb/javascript-algorithms.svg?branch=master)](https://travis-ci.org/trekhleb/javascript-algorithms)
