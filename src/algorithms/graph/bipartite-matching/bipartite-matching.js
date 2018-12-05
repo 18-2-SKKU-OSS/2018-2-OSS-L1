@@ -1,5 +1,8 @@
 /**
- * @param {Graph} graph 
+ * @param {number} n
+ * @param {number} m
+ * @param {GraphEdge[]} edges
+ * @return {number}
  */
 
 "use strict"
@@ -7,9 +10,7 @@
 var pool = require("typedarray-pool")
 var INF = (1<<28)
 
-module.exports = bipartiteMatching
-
-function bipartiteMatching(n, m, edges) {
+export default function bipartiteMatching(n, m, edges) {
 
   //Initalize adjacency list, visit flag, distance
   var adjN = new Array(n)
