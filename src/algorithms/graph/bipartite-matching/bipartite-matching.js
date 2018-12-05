@@ -1,3 +1,7 @@
+/**
+ * @param {Graph} graph 
+ */
+
 "use strict"
 
 var pool = require("typedarray-pool")
