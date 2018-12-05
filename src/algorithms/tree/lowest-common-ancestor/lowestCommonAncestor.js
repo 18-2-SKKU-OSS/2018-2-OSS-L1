@@ -1,5 +1,3 @@
-import Queue from '../../../data-structures/queue/Queue';
-
 /**
  * @typedef {Object} Callbacks
  * @property {function(node: BinaryTreeNode, child: BinaryTreeNode): boolean} allowTraversal -
@@ -15,6 +13,29 @@ import Queue from '../../../data-structures/queue/Queue';
  * @param {BinaryTreeNode} rootNode
  * @param {Callbacks} [originalCallbacks]
  */
-export default function lca(rootNode, originalCallbacks) {
+function calcDepth = var function(node){
+	let depth = 0;
+	while (node.parent == null) {
+		node = node.parent;
+		depth += 1;
+	}
 
+	return depth;
+}
+
+/*lowest common ancestor*/
+export default function lca(rootNode, firstNode, secondNode) {
+	const firstDepth = calcDepth(firstNode);
+	const secondDepth = calcDepth(secondNode);
+	let resultNode = null;
+	
+	for (int i = 0; i < Math.abs(firstDepth - secondDepth); i++) {
+		if (firstDepth > secondDepth) 
+			firstNode = firstNode.parent;
+		else
+			secondNode = secondNode.parent;
+	}
+	
+
+	return resultNode;
 }
