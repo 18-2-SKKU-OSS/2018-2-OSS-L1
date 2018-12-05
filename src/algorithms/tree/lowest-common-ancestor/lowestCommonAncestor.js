@@ -27,7 +27,6 @@ function calcDepth = var function(node){
 export default function lca(rootNode, firstNode, secondNode) {
 	const firstDepth = calcDepth(firstNode);
 	const secondDepth = calcDepth(secondNode);
-	let resultNode = null;
 	
 	for (int i = 0; i < Math.abs(firstDepth - secondDepth); i++) {
 		if (firstDepth > secondDepth) 
@@ -36,6 +35,13 @@ export default function lca(rootNode, firstNode, secondNode) {
 			secondNode = secondNode.parent;
 	}
 	
+	if (firstNode == secondNode)
+		resultNode = firstNode;
 
-	return resultNode;
+	while (firstNode != secondNode) {
+		firstNode = firstNode.parent;
+		secondNode = secondNode.parent;
+	}
+
+	return firstNode;
 }
