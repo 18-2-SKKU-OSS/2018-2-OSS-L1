@@ -10,7 +10,7 @@
 
     김민기 / 2014313107 / rlaalsrl7777@gmail.com / Minki-Kim95 / ROLL : 번역 수정, 알고리즘 추가(sleep sorting 등)
 
-    김장영 / 2014314068 / kjy276@naver.com / kjy276 / ROLL : 알고리즘 추가(Tarjan algorithm 등), 기존 프로젝트 알고리즘 목록 조사
+    김장영 / 2014314068 / kjy276@naver.com / kjy276 / ROLL : 알고리즘 추가(bipartite-matching 등), 기존 프로젝트 알고리즘 목록 조사
 
 # JavaScript Algorithms and Data Structures
 
