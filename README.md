@@ -1,16 +1,16 @@
-# Welcome to the 2018-2-OSS-L1 wiki!
+# Welcome to the 2018-2-OSS-L1 TEAM PAGE
 
 
 
-    팀장 : 최창안 / 2012310793 / orist22@gmail.com / orist22
+    최창안 / 2012310793 / orist22@gmail.com / orist22 / ROLL : 팀장, 업무 분배, 프로젝트 관리, 알고리즘 추가(astar algorithm 등)
 
-    팀원 : 류민재 / 2015310965 / lminjae0313@gmail.com / MinjaeLyou
+    류민재 / 2015310965 / lminjae0313@gmail.com / MinjaeLyou / ROLL : 알고리즘 추가(bogo sorting 등), 이슈 관리
 
-    김윤지 / 2016312595 / gunvo88@naver.com / yunjiyunji
+    김윤지 / 2016312595 / gunvo88@naver.com / yunjiyunji / ROLL : WIKI 관리, TEAM PAGE 관리, 알고리즘 추가(huffman code 등)
 
-    김민기 / 2014313107 / rlaalsrl7777@gmail.com / Minki-Kim95
+    김민기 / 2014313107 / rlaalsrl7777@gmail.com / Minki-Kim95 / ROLL : 번역 수정, 알고리즘 추가(sleep sorting 등)
 
-    김장영 / 2014314068 / kjy276@naver.com / kjy276
+    김장영 / 2014314068 / kjy276@naver.com / kjy276 / ROLL : 알고리즘 추가(Tarjan algorithm 등), 기존 프로젝트 알고리즘 목록 조사
 
 # JavaScript Algorithms and Data Structures
 
