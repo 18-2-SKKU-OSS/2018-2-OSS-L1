@@ -11,7 +11,7 @@ var messages = {
 };
 
 gulp.task('deploy', function () {
-    return gulp.src("./dist/**/*")
+    return gulp.src("docs/**/*")
       .pipe(deploy())
 });
 
@@ -41,7 +41,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
     browserSync({
         server: {
-            baseDir: './_site'
+            baseDir: 'docs/_site'
         },
         notify: false
     });
@@ -54,15 +54,15 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    return gulp.src('./assets/css/main.scss')
+    return gulp.src('docs/assets/css/main.scss')
         .pipe(sass({
             includePaths: ['css'],
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-        .pipe(gulp.dest('./_site/assets/css'))
+        .pipe(gulp.dest('docs/_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('./assets/css'));
+        .pipe(gulp.dest('docs/assets/css'));
 });
 
 /*
@@ -70,9 +70,9 @@ gulp.task('sass', function () {
 */
 
 gulp.task('jade', function(){
-  return gulp.src('./_jadefiles/*.jade')
+  return gulp.src('docs/_jadefiles/*.jade')
   .pipe(jade())
-  .pipe(gulp.dest('./_includes'));
+  .pipe(gulp.dest('docs/_includes'));
 });
 
 
@@ -81,11 +81,11 @@ gulp.task('jade', function(){
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('./assets/css/**', ['sass']);
-    gulp.watch('./assets/js/**', ['jekyll-rebuild']);
-    gulp.watch(['index.html', './_layouts/*.html', './_includes/*'], ['jekyll-rebuild']);
-    gulp.watch('./assets/js/**', ['jekyll-rebuild']);
-    gulp.watch('./_jadefiles/*.jade', ['jade']);
+    gulp.watch('docs/assets/css/**', ['sass']);
+    gulp.watch('docs/assets/js/**', ['jekyll-rebuild']);
+    gulp.watch(['index.html', 'docs/_layouts/*.html', 'docs/_includes/*'], ['jekyll-rebuild']);
+    gulp.watch('docs/assets/js/**', ['jekyll-rebuild']);
+    gulp.watch('docs/_jadefiles/*.jade', ['jade']);
 });
 
 
