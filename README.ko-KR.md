@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/trekhleb/javascript-algorithms.svg?branch=master)](https://travis-ci.org/trekhleb/javascript-algorithms)
 [![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
 
-이 저장소에는 많이 알려진 알고리즘 및 자료 구조의 Javascript 기반 예제를 담고 있습니다.
+이 저장소에는 Javascript 버전의 저명한 알고리즘 및 자료 구조의 예제를 담고 있습니다.
 
 각 알고리즘과 자료 구조에 대해 연관되어있는 설명이 README에 작성되어 있으며,
 링크를 통해 더 자세한 설명을 만날 수 있습니다. (관련된 YouTube 영상도 포함).
@@ -19,9 +19,10 @@ _Read this in other languages:_
 
 ## 자료 구조
 
-자료 구조는 데이터를 특정 방식으로 구성하고 저장함으로써 더 효율적으로
-접근하고 수정할 수 있게 해줍니다. 간단히 말해, 자료 구조는 데이터 값들,
-데이터 간의 관계, 그리고 데이터를 다룰 수 있는 함수와 작업의 모임입니다. 
+자료 구조는 데이터 값들, 데이터 값들 간의 관계, 
+그리고 데이터를 다룰 수 있는 함수와 연산들의 집합으로, 
+데이터를 특정 방식으로 구성하고 저장함으로써 더 효율적으로
+접근하고 수정할 수 있게 해줍니다.   
 
 
 `B` - 입문자, `A` - 숙련자
@@ -46,8 +47,9 @@ _Read this in other languages:_
 
 ## 알고리즘
 
-알고리즘은 어떤 종류의 문제를 풀 수 있는 정확한 방법이며, 
-일련의 작업을 정확하게 정의해 놓은 규칙들입니다. 
+알고리즘은 어떠한 문제를 해결하기 위해 정해진 
+일련의 절차나 방법을 공식화한 형태로 표현한 것을 말한다.
+
 
 `B` - 입문자, `A` - 숙련자
 
