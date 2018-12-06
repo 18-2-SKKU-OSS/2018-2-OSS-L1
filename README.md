@@ -1,32 +1,55 @@
-=============================
-Team Page
-=============================
+# jekyll-theme-EasyBook
 
-<!--[Live Website](http://gearoidoconnor.ie)-->
+Another Jekyll Blog Theme "EasyBook"
 
+Start blogging with a simple but powerful theme.
 
-A blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+## Features
 
+- Everything Basic Jekyll has.
+- **Pagination** is enabled.
+- **Comments** using Disqus or 多说.
+- **TOC** makes reading easier.
+- **Profile** including your links and avatar on the sidebar.
+- *And more...*
 
-## System Preparation
+## Install
 
-To use this project, you'll need the following things installed on your machine.
+Read [Quick Guide] to learn how to install and publish.
 
-1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
-2. [NodeJS](http://nodejs.org) - use the installer.
-3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
+Read [Welcome to Jekyll and EasyBook][helloPost] and [Jekyll][jekyll] for further information.
 
-## Local Installation
+**If need help, please:**
 
-1. Clone this repo, or download it into a directory of your choice.
-2. Inside the directory, run `npm install`.
+ - [**Read Wiki pages**](https://github.com/laobubu/jekyll-theme-EasyBook/wiki)
+ - **Google it**
+ - [**Submit an issue**](https://github.com/laobubu/jekyll-theme-EasyBook/issues/new)
 
-## Usage
+## Donate
 
-**development mode**
+Buy me a coffee if you find EasyBook useful for you :smiley:
 
-This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
+Visit <http://laobubu.net/donate.html>
 
-```shell
-$ gulp watch
+## Demo
+
+[laobubu's blog](http://blog.laobubu.net) | [empty site](http://laobubu.github.io/jekyll-theme-EasyBook)
+
+![Homepage](https://ooo.0o0.ooo/2016/02/11/56bc997c65daf.png)
+
+## License
+
 ```
+The MIT License (MIT)
+Copyright (c) 2016 laobubu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+[Quick Guide]: https://github.com/laobubu/jekyll-theme-EasyBook/wiki/Quick-Guide
+[helloPost]: http://laobubu.github.io/jekyll-theme-EasyBook/archivers/hello
+[jekyll]: http://jekyllrb.com/
