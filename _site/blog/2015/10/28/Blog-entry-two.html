@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Gearoid O'Connor</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link href="kudos.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+
+  <a href="#" class="back-to-top">Back To Top</a><div id="container" class="logo"></div><header id="h_small"><nav id="nav_small"><a href="/#about-me">About Me</a><a href="/#Experenice">Experience</a><a href="/#Blog">Blog</a><a href="/#Details">Contact Me</a></nav></header>
+
+
+<script type="text/javascript">
+			// needs to be a string for jquery.cookie
+			var postId = '1';
+			$(function()
+			{
+				// initialize kudos
+				$("figure.kudoable").kudoable();
+				// check to see if user has already kudod
+				// fyi cookies do not work when you are viewing this as a file
+				if($.cookie(postId) == 'true') {
+					// make kudo already kudod
+					$("figure.kudoable").removeClass("animate").addClass("complete");
+					// your server would take care of the proper kudos count, but because this is a
+					// static page, we need to set it here so it doesn't become -1 when you remove
+					// the kudos after a reload
+					$(".num").html(1);
+				}
+				// when kudoing
+				$("figure.kudo").bind("kudo:active", function(e)
+				{
+					console.log("kudoing active");
+				});
+				// when not kudoing
+				$("figure.kudo").bind("kudo:inactive", function(e)
+				{
+					console.log("kudoing inactive");
+				});
+				// after kudo'd
+				$("figure.kudo").bind("kudo:added", function(e)
+				{
+					var element = $(this);
+					// ajax'y stuff or whatever you want
+					console.log("Kodo'd:", element.data('id'), ":)");
+					// set cookie so user cannot kudo again for 7 days
+					$.cookie(postId, 'true', { expires: 7 });
+				});
+				// after removing a kudo
+				$("figure.kudo").bind("kudo:removed", function(e)
+				{
+					var element = $(this);
+					// ajax'y stuff or whatever you want
+					console.log("Un-Kudo'd:", element.data('id'), ":(");
+					// remove cookie
+					$.removeCookie(postId);
+				});
+			});
+		</script>
+
+
+
+<div class="post-header">
+  <h1 class="post-title">Blog entry two</h1>
+</div>
+<div class="post-header">
+  <p class="post-meta">October 28, 2015 — 03:11</p>
+</div>
+
+<div class="post-wrapper">
+
+
+
+  <article class="post-content">
+    <div class = "blurb-blog">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget libero vel turpis eleifend convallis vel vitae est. Suspendisse mattis ut nulla dapibus ultricies. Suspendisse feugiat felis mi, sit amet pharetra massa volutpat sit amet. Morbi gravida, libero sit amet lacinia tristique, ipsum lacus fermentum eros, ut sollicitudin lacus massa ut leo. In quis urna eu lorem sagittis posuere. Pellentesque tempus consequat urna. Pellentesque blandit elit ac nulla semper vestibulum. Quisque ultrices vestibulum nisi, nec rhoncus est viverra eget. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+
+<p>Suspendisse egestas sit amet tellus non bibendum. Donec a pellentesque elit. Donec eu ex nec urna semper dignissim non eget magna. Maecenas facilisis nunc eu mi auctor eleifend. Praesent ut sollicitudin ligula, dignissim consectetur purus. Pellentesque sed ligula sapien. Ut non placerat risus. Aliquam posuere, odio ut semper hendrerit, lectus leo maximus orci, vel condimentum tortor ipsum id lacus. Sed lacinia magna nec tortor sollicitudin, ut tempor mi pretium. In in lacus sed mi aliquet scelerisque. Maecenas nisl mauris, euismod ac ultrices vel, molestie eu massa. Phasellus maximus ultrices facilisis. Integer imperdiet ut felis ac tempor. Pellentesque auctor turpis at turpis cursus consequat. Quisque eget euismod elit, et varius justo. Maecenas porttitor lobortis sem sit amet lacinia.</p>
+
+<p>Integer bibendum enim nec neque vulputate, in commodo elit mollis. Proin convallis, justo ac ornare porta, velit mauris tristique sapien, quis egestas nisl nisi in mi. Mauris vulputate orci a nulla eleifend malesuada. Aenean eget dictum risus, at semper ligula. Donec sit amet sodales ante. In hac habitasse platea dictumst. Praesent sagittis ipsum sem, nec pulvinar ante semper et. Pellentesque felis ante, posuere in placerat vitae, mollis quis est. Duis at risus et mi eleifend condimentum id ut turpis. Quisque rhoncus tristique felis sit amet convallis. Praesent ornare, lorem sed cursus facilisis, quam velit posuere massa, in congue mi nisl vel lectus. Nullam mi nisl, iaculis eu ornare ut, faucibus quis odio. Aliquam dapibus purus sed libero pretium congue. Nullam convallis eros eu cursus vehicula. Proin facilisis tempor lorem, nec varius ante luctus dapibus. Cras ornare eget tortor eu molestie.</p>
+
+<p>Praesent porttitor risus elit, ac dignissim lorem auctor at. Donec viverra metus et leo congue semper. Vestibulum in massa vitae mauris imperdiet tincidunt. Nullam congue felis massa, et ultrices ipsum imperdiet finibus. Aenean pulvinar enim a congue viverra. Phasellus maximus augue nec eleifend dapibus. Nulla sit amet nulla nec sem venenatis auctor ut sit amet leo. Sed interdum, lectus in dictum condimentum, enim nisi mollis libero, id rhoncus lectus urna et mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean vehicula bibendum justo vehicula efficitur. Sed in accumsan orci, at finibus diam. Morbi nibh nulla, iaculis at nibh et, gravida dapibus dui. Morbi suscipit bibendum nisl, et pulvinar neque pellentesque sed.</p>
+
+<p>Ut mattis sem a nunc maximus pulvinar. Morbi blandit nec velit vel dignissim. Suspendisse congue congue pharetra. Cras dolor nibh, congue eu libero ut, porttitor porta metus. Morbi a porta ex. Nulla eget nisl eu turpis convallis sollicitudin. Curabitur varius tellus in metus aliquam tincidunt. Aliquam condimentum tempor sodales. In aliquet dolor gravida arcu ultrices, eu cursus quam feugiat. Nunc auctor, nisi id pellentesque venenatis, diam sapien laoreet ante, nec tempus tortor mi ultrices ligula. Donec a felis sed quam convallis ultricies. Praesent ut arcu eget lectus gravida molestie. Curabitur suscipit nisi enim, ut efficitur enim congue nec. Vestibulum egestas finibus nunc, sit amet lacinia sem sodales ac. Quisque dui felis, mattis id mauris eu, tempus volutpat arcu. Quisque a volutpat ligula, in sagittis metus.</p>
+
+   </div>
+  </article>
+
+
+</div>
+<div class="comment">
+  
+  </div>
+
+  <footer><div class="lockup"><div class="content-wrap"><nav><a href="#about-me">About Me</a><a href="#Experenice">Experience</a><a href="#Blog">Blog</a><a href="#Details">Contact Me</a></nav><p class="copyright">Gearoid O'Connor 2015</p></div></div></footer>
+  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/functions.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/modernizr.js"></script>
+  <script src="assets/js/kudos.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70467029-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
