@@ -12,6 +12,10 @@ f(n)=g(n)+h(n)} f(n)=g(n)+h(n)
 
 where n is the next node on the path, g(n) is the cost of the path from the start node to n, and h(n) is a heuristic function that estimates the cost of the cheapest path from n to the goal. A* terminates when the path it chooses to extend is a path from start to goal or if there are no paths eligible to be extended.The heuristic function is problem-specific. If the heuristic function is admissible, meaning that it never overestimates the actual cost to get to the goal, A* is guaranteed to return a least-cost path from start to goal.
 
+https://upload.wikimedia.org/wikipedia/commons/9/98/AstarExampleEn.gif
+
+
+
 ###References
 Wikipedia(https://en.wikipedia.org/wiki/A*_search_algorithm)
 Wikipedia(https://ko.wikipedia.org/wiki/A*_알고리즘)
