@@ -14,7 +14,7 @@ where n is the next node on the path, g(n) is the cost of the path from the star
 
 ![Astar Algorithm](https://upload.wikimedia.org/wikipedia/commons/9/98/AstarExampleEn.gif)
 
-![Astar Algorithm](https://en.wikipedia.org/wiki/File:Astar_progress_animation.gif)
+![Astar Algorithm](https://upload.wikimedia.org/wikipedia/commons/5/5d/Astar_progress_animation.gif)
 
 ###References
 Wikipedia(https://en.wikipedia.org/wiki/A*_search_algorithm)
