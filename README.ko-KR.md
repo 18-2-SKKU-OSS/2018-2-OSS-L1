@@ -126,7 +126,7 @@ _Read this in other languages:_
   * `B` [정방 행렬 회전](src/algorithms/uncategorized/square-matrix-rotation) - 제자리(in-place) 알고리즘
   * `B` [점프 게임](src/algorithms/uncategorized/jump-game) - 백트래킹, 동적계획법 (top-down + bottom-up), 탐욕 알고리즘 예제 
   * `B` [Unique 경로](src/algorithms/uncategorized/unique-paths) - 백트래킹, 동적계획법, 파스칼 삼각형에 기반한 예제
-  * `B` [빗물 담기 문제](src/algorithms/uncategorized/rain-terraces) - trapping rain water problem (동적계획법, 브루트포스 버전)
+  * `B` [빗물 담기 문제](src/algorithms/uncategorized/rain-terraces) - 주어진 공간에 담을 수 있는 빗물의 최대값 (동적계획법, 브루트포스 버전)
   * `A` [N개의 퀸 문제](src/algorithms/uncategorized/n-queens) - NXN 체스판에 N개의 퀸을 배치하는 문제
   * `A` [기사의 여행 문제](src/algorithms/uncategorized/knight-tour) - 체스 보드의 기사 말에 대한 수학적 알고리즘
 
@@ -138,7 +138,7 @@ _Read this in other languages:_
 
 * **브루트 포스(Brute Force)** - 가능한 모든 경우를 탐색한 뒤 최적을 찾아내는 방식입니다.
   * `B` [선형 탐색](src/algorithms/search/linear-search)
-  * `B` [빗물 담기 문제](src/algorithms/uncategorized/rain-terraces) - trapping rain water problem
+  * `B` [빗물 담기 문제](src/algorithms/uncategorized/rain-terraces) - 주어진 공간에 담을 수 있는 빗물의 최대값
   * `A` [최대 구간합](src/algorithms/sets/maximum-subarray)
   * `A` [외판원 문제](src/algorithms/graph/travelling-salesman) - 각 도시를 다 방문하고 다시 출발점으로 돌아오는 최단 경로 찾기
 * **탐욕 알고리즘(Greedy)** - 이후를 고려하지 않고 현재 시점에서 가장 최적인 선택을 하는 방식입니다.
