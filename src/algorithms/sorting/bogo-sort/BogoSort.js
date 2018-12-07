@@ -2,7 +2,7 @@ import Sort from '../Sort';
 
 export default class BogoSort extends Sort {
     sort(originalArray) {
-      const array = [...originalArray];
+      let array = [...originalArray];
   
       // Go through all array elements...
       let sorted = false;
