@@ -9,7 +9,7 @@
  * @param {number} y3
  * @return {number}
  */
-export default function fibonacci(x1, y1, x2, y2, x3, y3) {
+export default function CounterClockWise(x1, y1, x2, y2, x3, y3) {
     
   let temp = x1*y2+x2*y3+x3*y1 - y1*x2-y2*x3-y3*x1;
 
