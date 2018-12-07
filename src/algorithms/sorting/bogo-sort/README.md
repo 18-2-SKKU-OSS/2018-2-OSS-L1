@@ -8,7 +8,7 @@ Two versions of the function exist: a deterministic version that enumerates all 
 
 | Name                  | Best            | Average             | Worst               | Memory    | Stable    | Comments  |
 | --------------------- | :-------------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
-| **Bogo sort**         | n               | n<sup>2</sup>       | n<sup>2</sup>       | 1         | Yes       |           |
+| **Bogo sort**         | n               | (n+1)!              | Unbounded           | 1         | No        |           |
 
 ## References
 
