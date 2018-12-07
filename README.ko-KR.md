@@ -57,14 +57,14 @@ _Read this in other languages:_
 
 * **Math**
   * `B` [비트 조작](src/algorithms/math/bits) - set/get/update/clear bits, 2의 곱 / 나누기, 음수로 만들기 etc.
-  * `B` [팩토리얼](src/algorithms/math/factorial) 
-  * `B` [피보나치 수](src/algorithms/math/fibonacci)
+  * `B` [팩토리얼](src/algorithms/math/factorial) - 그 수보다 작거나 같은 모든 양의 정수의 곱
+  * `B` [피보나치 수](src/algorithms/math/fibonacci) - 첫째 및 둘째 항이 1이며 그 뒤의 모든 항은 바로 앞 두 항의 합인 수열
   * `B` [소수 판별](src/algorithms/math/primality-test) (trial division 방식)
   * `B` [유클리드 호제법](src/algorithms/math/euclidean-algorithm) - 최대공약수 (GCD)
   * `B` [최소 공배수](src/algorithms/math/least-common-multiple) - LCM(Least Common Multiple)
   * `B` [에라토스테네스의 체](src/algorithms/math/sieve-of-eratosthenes) - 특정수 이하의 모든 소수 찾기
   * `B` [2의 거듭제곱 판별법](src/algorithms/math/is-power-of-two) - 어떤 수가 2의 거듭제곱인지 판별 (naive 와 bitwise 알고리즘)
-  * `B` [파스칼 삼각형](src/algorithms/math/pascal-triangle)
+  * `B` [파스칼 삼각형](src/algorithms/math/pascal-triangle) - 이항계수를 삼각형 모양의 기하학적 형태로 배열한 것
   * `A` [자연수 분할](src/algorithms/math/integer-partition)
   * `A` [리우 후이 π 알고리즘](src/algorithms/math/liu-hui) - N-각형을 기반으로 π 근사치 구하기
 * **Sets**
@@ -85,7 +85,7 @@ _Read this in other languages:_
   * `A` [커누스-모리스-프랫 알고리즘](src/algorithms/string/knuth-morris-pratt) (KMP 알고리즘) - 부분 문자열 탐색 (패턴 매칭)
   * `A` [Z 알고리즘](src/algorithms/string/z-algorithm) - 부분 문자열 탐색 (패턴 매칭)
   * `A` [라빈 카프 알고리즘](src/algorithms/string/rabin-karp) - 부분 문자열 탐색
-  * `A` [최장 공통 부분 문자열](src/algorithms/string/longest-common-substring)
+  * `A` [최장 공통 부분 문자열](src/algorithms/string/longest-common-substring) - 부분 문자열 탐색
   * `A` [정규 표현식 매칭](src/algorithms/string/regular-expression-matching)
 * **Searches**
   * `B` [선형 탐색](src/algorithms/search/linear-search)
@@ -143,14 +143,14 @@ _Read this in other languages:_
   * `A` [외판원 문제](src/algorithms/graph/travelling-salesman) - 각 도시를 다 방문하고 다시 출발점으로 돌아오는 최단 경로 찾기
 * **탐욕 알고리즘(Greedy)** - 이후를 고려하지 않고 현재 시점에서 가장 최적인 선택을 하는 방식입니다.
   * `B` [점프 게임](src/algorithms/uncategorized/jump-game)
-  * `A` [쪼갤수 있는 배낭 문제](src/algorithms/sets/knapsack-problem)
+  * `A` [쪼갤수 있는 배낭 문제](src/algorithms/sets/knapsack-problem) - 짐들을 배낭에 넣을 때, 가치의 합이 최대가 되도록 짐을 고르는 방법을 찾는 문제
   * `A` [다익스트라 알고리즘](src/algorithms/graph/dijkstra) - 모든 점 까지의 최단거리 찾기
   * `A` [프림 알고리즘](src/algorithms/graph/prim) - 무방향 가중치 그래프에서 최소 신창 트리 (MST) 찾기
   * `A` [크루스칼 알고리즘](src/algorithms/graph/kruskal) - 무방향 가중치 그래프에서 최소 신창 트리 (MST) 찾기
 * **분할 정복법(Divide and Conquer)** - 문제를 여러 작은 문제로 분할한 뒤 해결하는 방식입니다.
   * `B` [이진 탐색](src/algorithms/search/binary-search) - 정렬된 배열에서 탐색
   * `B` [하노이 탑](src/algorithms/uncategorized/hanoi-tower) - 재귀 호출을 이용한 알고리즘 예제
-  * `B` [파스칼 삼각형](src/algorithms/math/pascal-triangle)
+  * `B` [파스칼 삼각형](src/algorithms/math/pascal-triangle) - 이항계수를 삼각형 모양의 기하학적 형태로 배열한 것
   * `B` [유클리드 호제법](src/algorithms/math/euclidean-algorithm) - 최대공약수 계산 (GCD)
   * `B` [병합 정렬](src/algorithms/sorting/merge-sort) (merge sort)
   * `B` [퀵 정렬](src/algorithms/sorting/quick-sort) - 제자리(in-place)와 제자리가 아닌(non-in-place) 구현
@@ -160,7 +160,7 @@ _Read this in other languages:_
   * `A` [순열](src/algorithms/sets/permutations) (반복 유,무)
   * `A` [조합](src/algorithms/sets/combinations) (반복 유,무)
 * **동적 계획법(Dynamic Programming)** - 이전에 찾은 결과를 이용하여 최종적으로 해결하는 방식입니다.
-  * `B` [피보나치 수](src/algorithms/math/fibonacci)
+  * `B` [피보나치 수](src/algorithms/math/fibonacci) - 첫째 및 둘째 항이 1이며 그 뒤의 모든 항은 바로 앞 두 항의 합인 수열
   * `B` [점프 게임](src/algorithms/uncategorized/jump-game)
   * `B` [Unique 경로](src/algorithms/uncategorized/unique-paths) - 백트래킹, 동적계획법, 파스칼 삼각형에 기반한 예제
   * `B` [빗물 담기 문제](src/algorithms/uncategorized/rain-terraces) - trapping rain water problem
