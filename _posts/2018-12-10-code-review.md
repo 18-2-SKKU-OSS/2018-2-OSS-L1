@@ -1,36 +1,21 @@
 ---
 layout: post
-title:  "code review 활동"
-author: john
+title:  "Code Review 활동"
+author: 김윤지
 categories: [ Jekyll, tutorial ]
-image: assets/images/3.jpg
+image: assets/images/review.png
 ---
-코드 리뷰에 대한 내용 넣어주세요
+master repository에 pull request를 보내기 전에
+먼저 branch에서 pull request를 보내고
+댓글 등을 통해 팀원들끼리 서로 코드 리뷰를 한 후에
+실제로 pull request를 날리는 방식으로 코드 리뷰를 진행하였습니다.
+
+***
 
 
-## Writing code blocks
+#### 실제 코드리뷰 모습
+Sleep sort 알고리즘에 대한 코드 리뷰가 이루어지고 있다.
+![walking]({{ site.baseurl }}/assets/images/code.png)
 
-There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
-
-```
-.my-link {
-    text-decoration: underline;
-}
-```
-
-If you want to get really fancy, you can even add syntax highlighting using Rouge.
-
-
-![walking]({{ site.baseurl }}/assets/images/8.jpg)
-
-## Reference lists
-
-The quick brown jumped over the lazy.
-
-Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.
-
-## Full HTML
-
-Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:
-
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+#### 코드리뷰 링크
+[code-review](https://github.com/18-2-SKKU-OSS/2018-2-OSS-L1/pull/23)
