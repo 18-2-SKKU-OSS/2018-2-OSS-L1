@@ -14,8 +14,11 @@ authors:
   김윤지:
     name: 김윤지
     display_name: 김윤지
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net
+    twitter: https://twitter.com/wowthemesnet
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    description: "팀 페이지를 만드는 역할고 huffman coding 알고리즘을 추가하였습니다."
+    description: "팀 페이지를 만들고 huffman coding 알고리즘을 추가하였습니다."
   john:
     name: John
     display_name: John
