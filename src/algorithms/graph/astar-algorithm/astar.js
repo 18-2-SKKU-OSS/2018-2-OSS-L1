@@ -7,14 +7,14 @@ import PriorityQueue from '../../../data-structures/priority-queue/PriorityQueue
 
 // calculate heuristic cost(number of hop from start to end)
 function heuristicCost(graph, startNode, endNode){
-  var arr = new Array();
-  var count = 1;
+  const arr = [];
+  const count = 1;
   
   graph.getNeighbors(startNode).forEach((vertex) => {
     arr.push(vertex);
   });
   
-  var cur = arr.pop();
+  const cur = arr.pop();
   while(1){
     arr.forEach((vertex) => {
       graph.getNeighbors(vertex).forEach((child) => {
