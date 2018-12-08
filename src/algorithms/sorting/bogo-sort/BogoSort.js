@@ -10,8 +10,7 @@ export default class BogoSort extends Sort {
     while(sorted == false){
       array = shuffle(array);
       sorted = isSorted(array);
-    }
-  
+    }  
     return array;
   }
   // Shuffle the array randomly.
