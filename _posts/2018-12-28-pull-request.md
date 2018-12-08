@@ -6,7 +6,7 @@ categories: [ Jekyll, tutorial ]
 image: assets/images/3.jpg
 ---
 L1이야
-
+수정
 
 ## Special formatting
 

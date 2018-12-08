@@ -3,7 +3,7 @@ layout: post
 title:  "팀 페이지 소개"
 author: 김윤지
 categories: [ team-page ]
-image: assets/images/tag.gif
+image: assets/images/jekyll.png
 ---
 
 Jekyll을 이용하여 팀 페이지를 만들었습니다.
