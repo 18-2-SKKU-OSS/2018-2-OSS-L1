@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "여기에 프로젝트 소개 - 자바스크립트 알고리즘"
-author: sal
-categories: [ Jekyll, tutorial ]
+title:  "Astar Search Algorithm"
+author: 최창안
+categories: [ Javascript, Algorithm, Graph ]
 image: assets/images/12.jpg
 featured: true
 hidden: true
