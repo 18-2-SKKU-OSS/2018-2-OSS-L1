@@ -16,6 +16,10 @@ authors:
     display_name: 김윤지
     description: "팀 페이지를 만들고 huffman coding 알고리즘을 추가하였습니다."
     gravatar: 4e7593f0941f26ba2dd90a916257e062
+  류민재:
+    name: 류민재
+    display_name: 류민재
+    description: "Bogo Sort 알고리즘을 추가하였습니다."
   john:
     name: John
     display_name: John
