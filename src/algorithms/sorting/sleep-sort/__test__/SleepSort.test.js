@@ -17,6 +17,8 @@ describe('SleepSort', () => {
     it('should sort array', () => {
         SortTester.testSort(ShellSort);
       });
+    it('should sort array with custom comparator', () => {
+    SortTester.testSortWithCustomComparator(ShellSort);
+    });
     
-      
   });
