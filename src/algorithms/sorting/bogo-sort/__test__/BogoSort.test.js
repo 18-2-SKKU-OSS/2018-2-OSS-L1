@@ -32,7 +32,7 @@ describe('BogoSort', () => {
 
   it('should visit EQUAL array element specified number of times', () => {
     SortTester.testAlgorithmTimeComplexity(
-      InsertionSort,
+      BogoSort,
       equalArr,
       EQUAL_ARRAY_VISITING_COUNT,
     );
@@ -40,7 +40,7 @@ describe('BogoSort', () => {
 
   it('should visit SORTED array element specified number of times', () => {
     SortTester.testAlgorithmTimeComplexity(
-      InsertionSort,
+      BogoSort,
       sortedArr,
       SORTED_ARRAY_VISITING_COUNT,
     );
@@ -48,7 +48,7 @@ describe('BogoSort', () => {
 
   it('should visit NOT SORTED array element specified number of times', () => {
     SortTester.testAlgorithmTimeComplexity(
-      InsertionSort,
+      BogoSort,
       notSortedArr,
       NOT_SORTED_ARRAY_VISITING_COUNT,
     );
@@ -56,7 +56,7 @@ describe('BogoSort', () => {
 
   it('should visit REVERSE SORTED array element specified number of times', () => {
     SortTester.testAlgorithmTimeComplexity(
-      InsertionSort,
+      BogoSort,
       reverseArr,
       REVERSE_SORTED_ARRAY_VISITING_COUNT,
     );
