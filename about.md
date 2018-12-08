@@ -10,7 +10,7 @@ This website is built with Jekyll and Mediumish template for Jekyll. It is meant
 
 ### Features
 
-- Built for Jekyll
+- aboutㅇ인가
 - Compatible with Github pages
 - Featured Posts
 - Index Pagination
@@ -45,7 +45,7 @@ Download or Fork *Mediumish for Jekyll*.
     - <code>$ gem install jekyll-paginate</code>
     - <code>$ gem install jekyll-archives</code>.
 - Edit the menu and footer copyrights in <code>default.html</code>
-- Start by adding your .md files in <code>_posts</code>. Mediumish already has a few as an example. 
+- Start by adding your ㅇ files in <code>_posts</code>. Mediumish already has a few as an example. 
 - YAML front matter
     - featured post - <code>featured:true</code>
     - exclude featured post from "All stories" loop to avoid duplicated posts - <code>hidden:true</code>

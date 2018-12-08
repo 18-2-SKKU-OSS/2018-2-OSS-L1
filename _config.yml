@@ -11,14 +11,11 @@ mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
+  김윤지:
+    name: 김윤지
+    display_name: 김윤지
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: "팀 페이지를 만드는 역할고 huffman coding 알고리즘을 추가하였습니다."
   john:
     name: John
     display_name: John
