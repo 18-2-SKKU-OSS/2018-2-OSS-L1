@@ -1,5 +1,6 @@
 # Huffman Coding Algorithm
 
+## Huffman Coding
 ![Huffman Coding](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/1920px-Huffman_tree_2.svg.png)
 
 
@@ -19,11 +20,12 @@ more common symbols are generally represented using fewer bits than less common 
 Huffman's method can be efficiently implemented,
 finding a code in time linear to the number of input weights if these weights are sorted.
 
+## Constructing a Huffman Tree
 ![Constructing a Huffman Tree](https://upload.wikimedia.org/wikipedia/commons/d/d8/HuffmanCodeAlg.png)
 
 
 
-## Encode : Compression
+# Encode : Compression
 
 ![Visualization of encoding](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Huffman_coding_visualisation.svg/1920px-Huffman_coding_visualisation.svg.png)
 
@@ -39,7 +41,7 @@ Since efficient priority queue data structures require `O(log n)` time per inser
 
 
 
-## References
+# References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Huffman_coding)
 - [GitHub](https://gist.github.com/1995eaton/86f10f4d0247b4e4e65e)
