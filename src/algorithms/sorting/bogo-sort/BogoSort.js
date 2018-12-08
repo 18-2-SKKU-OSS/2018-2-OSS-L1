@@ -7,10 +7,10 @@ export default class BogoSort extends Sort {
     // Flag that holds info about whether the array is sorted or not.
     let sorted = false;
     // Do while until the array is sorted.
-    while(sorted == false){
+    while (sorted === false) {
       array = shuffle(array);
       sorted = isSorted(array);
-    }  
+    }
     return array;
   }
   // Shuffle the array randomly.
@@ -20,9 +20,9 @@ export default class BogoSort extends Sort {
   }
   // Check whether the array is sorted or not.
   isSorted(array) {
-    for(let i = 1; i < array.length; i++){
-    if (array[i-1] > array[i]) { return false; }
-  }
+    for (let i = 1; i < array.length; i++) {
+      if (array[i - 1] > array[i]) { return false; }
+    }
     return true;
   }
 }
