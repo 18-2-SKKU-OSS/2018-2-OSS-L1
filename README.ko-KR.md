@@ -185,7 +185,7 @@ _Read this in other languages:_
 
 ## 이 저장소의 사용법
 
-**모든 의존성 설치**
+**모든 종속 모듈들 설치**
 ```
 npm install
 ```
