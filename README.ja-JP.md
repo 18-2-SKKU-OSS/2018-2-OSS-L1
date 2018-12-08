@@ -72,3 +72,15 @@ _Read this in other languages:_
   * `A` [整数パーティション](src/algorithms/math/integer-partition)
   * `A` [Liu Hui π アルゴリズム](src/algorithms/math/liu-hui) - N-gonsに基づく近似π計算
   * `A` [離散フーリエ変換](src/algorithms/math/fourier-transform) - 時間（信号）の関数をそれを構成する周波数に分解する
+  * **セット**
+  * `B` [デカルト積 ](src/algorithms/sets/cartesian-product) - 複数の積の積
+  * `B` [Fisher–Yates Shuffle](src/algorithms/sets/fisher-yates) - 有限シーケンスのランダム置換
+  * `A` [パワーセット](src/algorithms/sets/power-set) - セットのすべてのサブセット（ビットごとのソリューションとバックトラッキングソリューション）
+  * `A` [順列](src/algorithms/sets/permutations) （繰り返しの有無にかかわらず）
+  * `A` [組み合わせ](src/algorithms/sets/combinations) （繰返しあり、繰返しなし）
+  * `A` [最長共通部分列](src/algorithms/sets/longest-common-subsequence) (LCS)
+  * `A` [最長増加サブシーケンス](src/algorithms/sets/longest-increasing-subsequence)
+  * `A` [最短共通スーパーシーケンス](src/algorithms/sets/shortest-common-supersequence) (SCS)
+  * `A` [ナップザック問題 ](src/algorithms/sets/knapsack-problem) - 「0/1」と「非結合」問題
+  * `A` [最大サブアレイ](src/algorithms/sets/maximum-subarray) - 「ブルートフォース」と「ダイナミックプログラミング」（Kadane's版）
+  * `A` [組み合わせ合計](src/algorithms/sets/combination-sum) - 特定の合計を構成するすべての組み合わせを見つける
