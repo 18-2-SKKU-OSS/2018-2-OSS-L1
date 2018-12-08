@@ -26,4 +26,14 @@ describe('SleepSort', () => {
         SortTester.testNegativeNumbersSort(ShellSort);
       });
     
+    it('should visit EQUAL array element specified number of times', () => {
+        SortTester.testAlgorithmTimeComplexity(
+            ShellSort,
+            equalArr,
+            EQUAL_ARRAY_VISITING_COUNT,
+        );
+    });
+    
+      
+      
   });
