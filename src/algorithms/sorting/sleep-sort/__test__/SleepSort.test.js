@@ -16,9 +16,14 @@ const EQUAL_ARRAY_VISITING_COUNT = 50;
 describe('SleepSort', () => {
     it('should sort array', () => {
         SortTester.testSort(ShellSort);
-      });
-    it('should sort array with custom comparator', () => {
-    SortTester.testSortWithCustomComparator(ShellSort);
     });
+    
+    it('should sort array with custom comparator', () => {
+        SortTester.testSortWithCustomComparator(ShellSort);
+    });
+    
+    it('should sort negative numbers', () => {
+        SortTester.testNegativeNumbersSort(ShellSort);
+      });
     
   });
