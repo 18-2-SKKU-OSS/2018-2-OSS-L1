@@ -33,6 +33,7 @@ describe('SleepSort', () => {
             EQUAL_ARRAY_VISITING_COUNT,
         );
     });
+
     it('should visit SORTED array element specified number of times', () => {
         SortTester.testAlgorithmTimeComplexity(
             SleepSort,
@@ -40,6 +41,7 @@ describe('SleepSort', () => {
             SORTED_ARRAY_VISITING_COUNT,
         );
     });
+
     it('should visit NOT SORTED array element specified number of times', () => {
         SortTester.testAlgorithmTimeComplexity(
           SleepSort,
@@ -47,7 +49,15 @@ describe('SleepSort', () => {
           NOT_SORTED_ARRAY_VISITING_COUNT,
         );
       });
-    
+
+    it('should visit REVERSE SORTED array element specified number of times', () => {
+        SortTester.testAlgorithmTimeComplexity(
+          SleepSort,
+          reverseArr,
+          REVERSE_SORTED_ARRAY_VISITING_COUNT,
+        );
+      });
+      
       
       
       
