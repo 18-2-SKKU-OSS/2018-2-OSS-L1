@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "여기는 교수님 칭찬^.^"
+title:  "팀 페이지 소개"
 author: sal
 categories: [ Jekyll ]
 image: assets/images/2.jpg
