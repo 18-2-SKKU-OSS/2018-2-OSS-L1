@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Astar Search Algorithm"
-author: 최창안
+author: Chang An Choi
 categories: [ Javascript, Algorithm, Graph ]
 image: assets/images/AstarExampleEn.gif
 featured: true
@@ -29,20 +29,3 @@ where n is the next node on the path, g(n) is the cost of the path from the star
 ###References
 Wikipedia(https://en.wikipedia.org/wiki/A*_search_algorithm)
 Wikipedia(https://ko.wikipedia.org/wiki/A*_알고리즘)
-
-
-```ruby
-# Install Jekyll and Bundler gems through RubyGems
-gem install jekyll bundler
-
-# Create a new Jekyll site at ./myblog
-jekyll new myblog
-
-# Change into your new directory
-cd myblog
-
-# Build the site on the preview server
-bundle exec jekyll serve
-
-# Now browse to http://localhost:4000
-```
