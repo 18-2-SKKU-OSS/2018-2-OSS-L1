@@ -53,4 +53,12 @@ describe('BogoSort', () => {
       NOT_SORTED_ARRAY_VISITING_COUNT,
     );
   });
+
+  it('should visit REVERSE SORTED array element specified number of times', () => {
+    SortTester.testAlgorithmTimeComplexity(
+      InsertionSort,
+      reverseArr,
+      REVERSE_SORTED_ARRAY_VISITING_COUNT,
+    );
+  });
 });
