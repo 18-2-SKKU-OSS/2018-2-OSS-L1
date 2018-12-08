@@ -45,4 +45,12 @@ describe('BogoSort', () => {
       SORTED_ARRAY_VISITING_COUNT,
     );
   });
+
+  it('should visit NOT SORTED array element specified number of times', () => {
+    SortTester.testAlgorithmTimeComplexity(
+      InsertionSort,
+      notSortedArr,
+      NOT_SORTED_ARRAY_VISITING_COUNT,
+    );
+  });
 });
