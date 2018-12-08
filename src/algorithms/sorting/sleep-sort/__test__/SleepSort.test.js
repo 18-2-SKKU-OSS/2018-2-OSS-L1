@@ -15,29 +15,36 @@ const EQUAL_ARRAY_VISITING_COUNT = 50;
 
 describe('SleepSort', () => {
     it('should sort array', () => {
-        SortTester.testSort(ShellSort);
+        SortTester.testSort(SleepSort);
     });
     
     it('should sort array with custom comparator', () => {
-        SortTester.testSortWithCustomComparator(ShellSort);
+        SortTester.testSortWithCustomComparator(SleepSort);
     });
     
     it('should sort negative numbers', () => {
-        SortTester.testNegativeNumbersSort(ShellSort);
+        SortTester.testNegativeNumbersSort(SleepSort);
       });
     
     it('should visit EQUAL array element specified number of times', () => {
         SortTester.testAlgorithmTimeComplexity(
-            ShellSort,
+            SleepSort,
             equalArr,
             EQUAL_ARRAY_VISITING_COUNT,
         );
     });
     it('should visit SORTED array element specified number of times', () => {
         SortTester.testAlgorithmTimeComplexity(
-          ShellSort,
-          sortedArr,
-          SORTED_ARRAY_VISITING_COUNT,
+            SleepSort,
+            sortedArr,
+            SORTED_ARRAY_VISITING_COUNT,
+        );
+    });
+    it('should visit NOT SORTED array element specified number of times', () => {
+        SortTester.testAlgorithmTimeComplexity(
+          SleepSort,
+          notSortedArr,
+          NOT_SORTED_ARRAY_VISITING_COUNT,
         );
       });
     
