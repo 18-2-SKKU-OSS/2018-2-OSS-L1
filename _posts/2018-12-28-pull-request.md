@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "우리는 L1조 입니다."
+title:  "pull request 활동"
 author: john
 categories: [ Jekyll, tutorial ]
 image: assets/images/3.jpg

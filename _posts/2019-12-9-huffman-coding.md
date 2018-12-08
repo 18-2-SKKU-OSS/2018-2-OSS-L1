@@ -22,12 +22,13 @@ uncategorized 알고리즘으로 추가하였고,
 기능으로는 `encode`와 `decode`를 추가하였습니다.
 `encode`를 통해 문자를 부호화하고, `decode`를 통해 부호화된 것을 다시 원래의 문자열로 돌려 놓을 수 있습니다.
 
-
+***
 #### 참조(References)
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Huffman_coding)
 - [GitHub](https://gist.github.com/1995eaton/86f10f4d0247b4e4e65e)
-
+***
+***
 
 #### ReadMe 파일
 
