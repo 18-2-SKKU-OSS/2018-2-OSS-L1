@@ -37,4 +37,12 @@ describe('BogoSort', () => {
       EQUAL_ARRAY_VISITING_COUNT,
     );
   });
+
+  it('should visit SORTED array element specified number of times', () => {
+    SortTester.testAlgorithmTimeComplexity(
+      InsertionSort,
+      sortedArr,
+      SORTED_ARRAY_VISITING_COUNT,
+    );
+  });
 });
