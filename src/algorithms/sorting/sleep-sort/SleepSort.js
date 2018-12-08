@@ -1,7 +1,7 @@
 import Sort from '../Sort';
 
 export default class SleepSort extends Sort {
-  sort(originalArray) {
+  sort(originalArray, callback) {
     // Clone original array to prevent its modification.
     const array = [...originalArray];
     var result = [];
@@ -11,7 +11,7 @@ export default class SleepSort extends Sort {
 			result.push(i);
 			
 			if(result.length == array.length) {
-				return result;
+				callback(result);
 			}
 		}, i);
 	});
