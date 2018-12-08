@@ -42,7 +42,7 @@ export default function astar(graph, startVertex, endVertex) {
   distances[startVertex.getKey()] = 0;
   heuristic[startVertex.getKey()] = 0;
   // Init vertices queue.
-  open.add(startVertex, distances[startVertex.getKey] + heuristic[startVertex.getKey()]);
+  open.add(startVertex, distances[startVertex.getKey()] + heuristic[startVertex.getKey()]);
   while (!open.isEmpty()) {
     while (true) {
       currentVertex = open.poll();
@@ -50,7 +50,7 @@ export default function astar(graph, startVertex, endVertex) {
       open.remove(currentVertex);
       if (!closed[currentVertex.getKey()]) {
         break;
-      } else if (closed[currentKey] > distances[currentKey] + heuristic[currentKey]){
+      } else if (closed[currentKey] > distances[currentKey] + heuristic[currentKey]) {
         closed[currentKey] = distances[currentKey] + heuristic[currentKey];
         break;
       }
