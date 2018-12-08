@@ -1,5 +1,3 @@
-// log = console.log.bind(console);
-
 var Heap = function(fn) {
   this.fn = fn || function(e) {
     return e;
@@ -52,6 +50,7 @@ Heap.prototype = {
 };
 
 var Huffman = {
+  // encode function
   encode: function(data) {
     var prob = {};
     var tree = new Heap(function(e) {
@@ -94,6 +93,7 @@ var Huffman = {
     }).join('-') + '/';
     return header + result;
   },
+  // decode function
   decode: function(string) {
     string = string.split('/');
     var data = string[1].split(''),
@@ -117,10 +117,3 @@ var Huffman = {
     return result;
   }
 };
-
-var enc = Huffman.encode('TESTTESTTESTTESTTESTTESTTESTTEST123abc');
-// log(enc);
-console.log(enc);
-var dec = Huffman.decode(enc);
-console.log(dec);
-// log(dec);
