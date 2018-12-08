@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll을 통한 정적 페이지 개발"
 author: 김윤지
-categories: [ team-page, jekyll ]
+categories: [ team-page, Jekyll ]
 image: assets/images/jekyll.png
 ---
 
