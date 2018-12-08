@@ -52,4 +52,23 @@ _Read this in other languages:_
 アルゴリズムとは、問題のクラスをどのように解決するかの明確な仕様です。
 一連の操作を正確に定義する一連のルールです。
 
-`B` - Beginner, `A` - Advanced
+`B` - 初心者, `A` - 上級
+
+### トピック別アルゴリズム
+
+* **数学**
+  * `B` [ビット操作](src/algorithms/math/bits) - set/get/update/clear bits, 2つの乗算/除算, 否定的にする. 等
+  * `B` [因果関係](src/algorithms/math/factorial) 
+  * `B` [フィボナッチ数](src/algorithms/math/fibonacci) - クラシックとクローズドフォームのバージョン
+  * `B` [素数性テスト](src/algorithms/math/primality-test) (trial division 方法)
+  * `B` [ユークリッドアルゴリズム](src/algorithms/math/euclidean-algorithm) - 最大公約数を計算する (GCD)
+  * `B` [最小公倍数](src/algorithms/math/least-common-multiple) (LCM)
+  * `B` [エラトステネスのふるい](src/algorithms/math/sieve-of-eratosthenes) - 与えられた限度まですべての素数を見つける
+  * `B` [Is Power of Two](src/algorithms/math/is-power-of-two) - 数値が2の累乗であるかどうかを調べる（単純なアルゴリズムとビットごとのアルゴリズム）
+  * `B` [パスカルの三角形](src/algorithms/math/pascal-triangle)
+  * `B` [複素数](src/algorithms/math/complex-number) - 複素数とその基本演算
+  * `B` [ラジアン＆度](src/algorithms/math/radian) - 度数と逆方向の変換に対するラジアン
+  * `B` [高速電力供給](src/algorithms/math/fast-powering)
+  * `A` [整数パーティション](src/algorithms/math/integer-partition)
+  * `A` [Liu Hui π アルゴリズム](src/algorithms/math/liu-hui) - N-gonsに基づく近似π計算
+  * `A` [離散フーリエ変換](src/algorithms/math/fourier-transform) - 時間（信号）の関数をそれを構成する周波数に分解する
