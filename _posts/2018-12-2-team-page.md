@@ -1,24 +1,29 @@
 ---
 layout: post
-title:  "팀 페이지 소개"
+title:  "Jekyll을 통한 정적 페이지 개발"
 author: 김윤지
-categories: [ team-page ]
+categories: [ team-page, jekyll ]
 image: assets/images/jekyll.png
 ---
 
-Jekyll을 이용하여 팀 페이지를 만들었습니다.
-Github에서 알아서 정적 페이지를 만들어준다.
+깃허브 활용을 배우는 오픈소스 소프트웨어 실습이기 때문에 깃허브와의 연동을 큰 장점으로 가지는 Jekyll을 사용하여 팀 페이지를 만들어 보았습니다.
+Jekyll은 HTML, Markdown 등의 마크업 언어로 글을 작성하면 이것을 미리 정의해 놓은 규칙에 따라 다양한 레이아웃으로 포장하여 정적 웹사이트를 만들어 줍니다.
 
 
-## Jekyll
 
-As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:
+### Jekyll
 
-+ ~~strike through~~
-+ ==highlight==
-+ \*escaped characters\*
+- 개발자들이 애용하는 github에서 개발한 툴
+- 정적 웹사이트 개발 툴로, 워드프레스(Wordpress)의 가장 큰 경쟁자로 성장
+- 텍스트 변환 엔진 : HTML, Markdown 등의 마크업 언어로 글을 작성하면 이것을 미리 정의해 놓은 규칙에 따라 다양한 레이아웃으로 포장
+- 사용자는 _config.yml 이나 _posts 폴더 등의 수정 또는 파일 추가를 통해 원하는 기능을 구현
+
+### 정적 웹사이트 (Static website)
+- PHP 언어를 이용한 서버 소프트웨어가 필요없이 HTML/CSS 등의 정적파일 만으로 사이트를 생성하므로 매우 빠르고 가볍다
 
 
-## Markdown
-
-There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
+### 마크다운 (Markdown)
+Markdown은 텍스트 기반의 마크업언어로 2004년 존그루버에 의해 만들어졌으며 쉽게 쓰고 읽을 수 있으며 HTML로 변환이 가능하다.
+특수기호와 문자를 이용한 매우 간단한 구조의 문법을 사용하여 웹에서도 보다 빠르게 컨텐츠를 작성하고 보다 직관적으로 인식할 수 있다.
+깃허브(https://github.com)의 저장소(Repository)에 관한 정보를 기록하는 README.md 또한 마크다운 문서이다.
+마크다운을 통해서 설치방법, 소스코드 설명, 이슈 등을 간단하게 기록하고 가독성을 높일 수 있다.

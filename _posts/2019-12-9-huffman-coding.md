@@ -1,35 +1,37 @@
 ---
 layout: post
-title:  "Options for creating a new site with Jekyll"
+title:  "허프만 부호화 알고리즘"
 author: 김윤지
 categories: [ Javascript, Algorithm, Greedy  ]
 image: assets/images/huffman.png
+featured: true
+hidden: true
 ---
-
-# 허프만 부호화 알고리즘
-
+***
 허프만 부호화 알고리즘을 추가하였습니다.
 uncategorized 알고리즘으로 추가하였고,
 패러다임으로 구분할 때는 Greedy 알고리즘으로 추가됩니다.
 
+
 ![Huffman Coding](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/1920px-Huffman_tree_2.svg.png)
 
 
-
-## 기능(function)
+***
+#### 기능(function)
 
 기능으로는 `encode`와 `decode`를 추가하였습니다.
 `encode`를 통해 문자를 부호화하고, `decode`를 통해 부호화된 것을 다시 원래의 문자열로 돌려 놓을 수 있습니다.
 
 
-## 참조(References)
+#### 참조(References)
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Huffman_coding)
 - [GitHub](https://gist.github.com/1995eaton/86f10f4d0247b4e4e65e)
 
-## ReadMe 파일
 
-### Huffman Coding
+#### ReadMe 파일
+
+##### Huffman Coding
 ![Huffman Coding](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/1920px-Huffman_tree_2.svg.png)
 
 
@@ -49,12 +51,12 @@ more common symbols are generally represented using fewer bits than less common 
 Huffman's method can be efficiently implemented,
 finding a code in time linear to the number of input weights if these weights are sorted.
 
-#### Constructing a Huffman Tree
+###### Constructing a Huffman Tree
 ![Constructing a Huffman Tree](https://upload.wikimedia.org/wikipedia/commons/d/d8/HuffmanCodeAlg.png)
 
 
 
-### Encode : Compression
+###### Encode : Compression
 
 ![Visualization of encoding](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Huffman_coding_visualisation.svg/1920px-Huffman_coding_visualisation.svg.png)
 
