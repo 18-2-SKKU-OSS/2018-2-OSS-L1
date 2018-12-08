@@ -33,7 +33,15 @@ describe('SleepSort', () => {
             EQUAL_ARRAY_VISITING_COUNT,
         );
     });
+    it('should visit SORTED array element specified number of times', () => {
+        SortTester.testAlgorithmTimeComplexity(
+          ShellSort,
+          sortedArr,
+          SORTED_ARRAY_VISITING_COUNT,
+        );
+      });
     
+      
       
       
   });
