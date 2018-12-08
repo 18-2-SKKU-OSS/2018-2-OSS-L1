@@ -3,7 +3,7 @@ layout: post
 title:  "Astar Search Algorithm"
 author: 최창안
 categories: [ Javascript, Algorithm, Graph ]
-image: assets/images/12.jpg
+image: assets/images/AstarExampleEn.gif
 featured: true
 hidden: true
 ---
