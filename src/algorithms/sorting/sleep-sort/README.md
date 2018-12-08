@@ -6,17 +6,10 @@ Task: Write a program that implements sleep sort. Have it accept non-negative in
 
 Sleep sort was presented anonymously on 4chan and has been discussed on Hacker News
 
-
-
-
-## How Sleep Sort Works
-
-
 ## Complexity
+Time complexity is commonly estimated by counting the number of elementary operations performed by the algorithm, where an elementary operation takes a fixed amount of time to perform. Thus the amount of time taken and the number of elementary operations performed by the algorithm differ by at most a constant factor.
 
-| Name                  | Best            | Average             | Worst               | Memory    | Stable    | Comments  |
-| --------------------- | :-------------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
-| **Sleep sort**        | O(max(input)+n)   | O(max(input)+n)   | O(max(input)+n)  | 1         | No         |           |
+Then we can't talk about the runtime complexity of this algorithm because time which the elementary operations take is so vastly different, that the time taken would differ by more than a constant factor.
 
 ## References
 
