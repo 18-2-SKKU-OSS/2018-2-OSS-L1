@@ -29,4 +29,12 @@ describe('BogoSort', () => {
   it('should sort negative numbers', () => {
     SortTester.testNegativeNumbersSort(BogoSort);
   });
+
+  it('should visit EQUAL array element specified number of times', () => {
+    SortTester.testAlgorithmTimeComplexity(
+      InsertionSort,
+      equalArr,
+      EQUAL_ARRAY_VISITING_COUNT,
+    );
+  });
 });
