@@ -6,7 +6,7 @@ export default class SleepSort extends Sort {
     const array = [...originalArray];
     var result = [];
 
-    array.forEach(function(i) {
+    array.forEach((i)=> {
 		setTimeout(function() {
 			result.push(i);
 			
