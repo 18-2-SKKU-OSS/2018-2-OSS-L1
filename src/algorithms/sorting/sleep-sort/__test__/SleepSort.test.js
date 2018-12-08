@@ -13,4 +13,6 @@ const NOT_SORTED_ARRAY_VISITING_COUNT = 50;
 const REVERSE_SORTED_ARRAY_VISITING_COUNT = 50;
 const EQUAL_ARRAY_VISITING_COUNT = 50;
 
-
+describe('SleepSort', () => {
+    
+  });
