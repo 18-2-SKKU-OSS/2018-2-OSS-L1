@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is Jekyll"
+title:  "여기가 팀원이랑 역할 소개"
 author: john
 categories: [ Jekyll, tutorial ]
 image: assets/images/11.jpg

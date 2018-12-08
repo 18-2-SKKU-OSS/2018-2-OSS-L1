@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Quick Start Guide"
+title:  "여기에 프로젝트 소개 - 자바스크립트 알고리즘"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/12.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "About Bundler"
+title:  "여기는 교수님 칭찬^.^"
 author: sal
 categories: [ Jekyll ]
 image: assets/images/2.jpg

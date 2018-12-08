@@ -5,8 +5,8 @@
     <description>Jekyll Template for Blogging</description>
     <link>http://localhost:4000/mediumish-theme-jekyll/</link>
     <atom:link href="http://localhost:4000/mediumish-theme-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Dec 2018 17:14:21 +0900</pubDate>
-    <lastBuildDate>Sat, 08 Dec 2018 17:14:21 +0900</lastBuildDate>
+    <pubDate>Sat, 08 Dec 2018 17:25:12 +0900</pubDate>
+    <lastBuildDate>Sat, 08 Dec 2018 17:25:12 +0900</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -137,7 +137,7 @@
       </item>
     
       <item>
-        <title>About Bundler</title>
+        <title>여기는 교수님 칭찬^.^</title>
         <description>&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt; installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundler&lt;/code&gt; is a gem that manages other Ruby gems. It makes sure your gems and gem versions are compatible, and that you have all necessary dependencies each gem requires.&lt;/p&gt;
@@ -206,7 +206,7 @@
       </item>
     
       <item>
-        <title>External Featured Image</title>
+        <title>우리 활동 소개 - 이슈 등등..</title>
         <description>&lt;p&gt;Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -234,7 +234,7 @@
       </item>
     
       <item>
-        <title>Quick Start Guide</title>
+        <title>여기에 프로젝트 소개 - 자바스크립트 알고리즘</title>
         <description>&lt;p&gt;If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:&lt;/p&gt;
 
 &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Install Jekyll and Bundler gems through RubyGems&lt;/span&gt;
@@ -264,7 +264,7 @@
       </item>
     
       <item>
-        <title>What is Jekyll</title>
+        <title>여기가 팀원이랑 역할 소개</title>
         <description>&lt;p&gt;No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML &amp;amp; CSS go in. Static sites come out ready for deployment. Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.&lt;/p&gt;
 
 &lt;p&gt;Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so you can easily deploy your site using GitHub for free-custom domain name and all.&lt;/p&gt;
