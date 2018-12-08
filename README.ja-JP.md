@@ -46,3 +46,10 @@ _Read this in other languages:_
 * `A` [グラフ](src/data-structures/graph) (both directed and undirected)
 * `A` [分離集合](src/data-structures/disjoint-set)
 * `A` [ブルームフィルタ](src/data-structures/bloom-filter)
+
+## アルゴリズム
+
+アルゴリズムとは、問題のクラスをどのように解決するかの明確な仕様です。
+一連の操作を正確に定義する一連のルールです。
+
+`B` - Beginner, `A` - Advanced
