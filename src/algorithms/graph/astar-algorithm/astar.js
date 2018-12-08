@@ -6,7 +6,7 @@ import PriorityQueue from '../../../data-structures/priority-queue/PriorityQueue
  */
 
 // calculate heuristic cost(number of hop from start to end)
-function heuristic_cost(graph, startNode, endNode){
+function heuristicCost(graph, startNode, endNode){
   var arr = new Array();
   var count = 1;
   
@@ -38,14 +38,15 @@ export default function astar(graph, startVertex, endVertex) {
   const previousVertices = {};
   const closed = {};
   const open = new PriorityQueue();
-
+  const currentVertex;
+  
   // Init all distances with infinity assuming that currently we can't reach
   // any of the vertices except start one.
   graph.getAllVertices().forEach((vertex) => {
     distances[vertex.getKey()] = Infinity;
     previousVertices[vertex.getKey()] = null;
     closed[vertex.getKey()] = null;
-    heuristic[vertex.getKey()] = heuristic_cost(graph, vertex, endVertex);
+    heuristic[vertex.getKey()] = heuristicCost(graph, vertex, endVertex);
   });
   distances[startVertex.getKey()] = 0;
   heuristic[startVertex.getKey()] = 0;
@@ -54,7 +55,7 @@ export default function astar(graph, startVertex, endVertex) {
 
   while (!open.isEmpty()) {
     while(1){
-      const currentVertex = open.poll();
+      currentVertex = open.poll();
       open.remove(currentVertex);
       
       if (!closed[currentVertex.getKey()]){
