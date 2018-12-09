@@ -191,3 +191,10 @@ _Read this in other languages:_
   次のソリューションを生成するたびにすべての条件を満たすかどうかをテストし、それ以降は引き続きソリューションを生成します。
   それ以外の場合は、バックトラックして、解決策を見つける別の経路に進みます。
   通常、状態空間のDFSトラバーサルが使用されています。
+  * `B` [ジャンプゲーム](src/algorithms/uncategorized/jump-game)
+  * `B` [ユニークなパス](src/algorithms/uncategorized/unique-paths)
+  * `B` [パワーセット](src/algorithms/sets/power-set) - セットのすべてのサブセット
+  * `A` [ハミルトニアンサイクル](src/algorithms/graph/hamiltonian-cycle) - すべての頂点を正確に1回訪問する
+  * `A` [N-クイーンズ問題](src/algorithms/uncategorized/n-queens)
+  * `A` [ナイトツアー](src/algorithms/uncategorized/knight-tour)
+  * `A` [組み合わせ合計](src/algorithms/sets/combination-sum) - 特定の合計を構成するすべての組み合わせを見つける
