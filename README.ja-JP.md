@@ -198,3 +198,4 @@ _Read this in other languages:_
   * `A` [N-クイーンズ問題](src/algorithms/uncategorized/n-queens)
   * `A` [ナイトツアー](src/algorithms/uncategorized/knight-tour)
   * `A` [組み合わせ合計](src/algorithms/sets/combination-sum) - 特定の合計を構成するすべての組み合わせを見つける
+* **ブランチ＆バウンド** - バックトラック検索の各段階で見つかった最もコストの低いソリューションを覚えておいて、最もコストの低いソリューションのコストを使用します。これまでに発見された最もコストの低いソリューションよりも大きなコストで部分ソリューションを破棄するように指示します。通常、状態空間ツリーのDFSトラバーサルと組み合わせたBFSトラバーサルが使用されています。
