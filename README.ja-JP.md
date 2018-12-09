@@ -235,3 +235,19 @@ npm test -- 'LinkedList'
 ```
 npm test -- 'playground'
 ```
+
+## 有用な情報
+
+### 参考文献
+
+[▶ データ構造とアルゴリズム on YouTube](https://www.youtube.com/playlist?list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+### ビッグO表記
+
+*Big O表記法は* 入力サイズが大きくなるにつれて実行時間やスペース要件がどのように増加するかに応じてアルゴリズムを分類するために使用されます。下のチャートでは、Big O表記で指定されたアルゴリズムの成長の最も一般的な順序を見つけることができます。
+
+![Big Oグラフ](./assets/big-o-graph.png)
+
+出典: [Big Oチートシート](http://bigocheatsheet.com/).
+
+以下は、最も使用されているBig O表記のリストと、入力データのさまざまなサイズに対するパフォーマンス比較です。
