@@ -187,3 +187,7 @@ _Read this in other languages:_
   * `A` [Bellman-Fordアルゴリズム](src/algorithms/graph/bellman-ford) - すべてのグラフ頂点への最短経路を見つける
   * `A` [Floyd-Warshallアルゴリズム](src/algorithms/graph/floyd-warshall) - すべての頂点ペア間の最短経路を見つける
   * `A` [正規表現マッチング](src/algorithms/string/regular-expression-matching)
+  * **バックトラッキング** - ブルートフォースと同様に、可能なすべてのソリューションを生成しようとしますが、
+  次のソリューションを生成するたびにすべての条件を満たすかどうかをテストし、それ以降は引き続きソリューションを生成します。
+  それ以外の場合は、バックトラックして、解決策を見つける別の経路に進みます。
+  通常、状態空間のDFSトラバーサルが使用されています。
