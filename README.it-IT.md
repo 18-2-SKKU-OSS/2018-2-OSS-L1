@@ -107,14 +107,14 @@ un insieme di regole che definiscono con precisione una sequenza di operazioni.
   * `B` [Unisci Ordina](src/algorithms/sorting/merge-sort)
   * `B` [Quicksort](src/algorithms/sorting/quick-sort) - in-place and non-in-place implementations
   * `B` [Shellsort](src/algorithms/sorting/shell-sort)
-  * `B` [Counting Sort](src/algorithms/sorting/counting-sort)
+  * `B` [Conteggio Sort](src/algorithms/sorting/counting-sort)
   * `B` [Radix Sort](src/algorithms/sorting/radix-sort)
-* **Linked Lists**
-  * `B` [Straight Traversal](src/algorithms/linked-list/traversal)
-  * `B` [Reverse Traversal](src/algorithms/linked-list/reverse-traversal)
-* **Trees**
+* **Elenchi collegati**
+  * `B` [Traversata diritta](src/algorithms/linked-list/traversal)
+  * `B` [Inverso trasversale](src/algorithms/linked-list/reverse-traversal)
+* **Alberi**
   * `B` [Depth-First Search](src/algorithms/tree/depth-first-search) (DFS)
-  * `B` [Breadth-First Search](src/algorithms/tree/breadth-first-search) (BFS)
+  * `B` [Larghezza prima ricerca](src/algorithms/tree/breadth-first-search) (BFS)
 * **Graphs**
   * `B` [Depth-First Search](src/algorithms/graph/depth-first-search) (DFS)
   * `B` [Breadth-First Search](src/algorithms/graph/breadth-first-search) (BFS)
