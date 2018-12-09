@@ -192,9 +192,9 @@ l'algoritmo è un'astrazione più alta di un programma per computer.
   * `A` [Algoritmo Bellman-Ford](src/algorithms/graph/bellman-ford) - trovare il percorso più breve per tutti i vertici del grafico
   * `A` [Floyd-Warshall Algoritmo](src/algorithms/graph/floyd-warshall) - find shortest paths between all pairs of vertices
   * `A` [Regular Expression Matching](src/algorithms/string/regular-expression-matching)
-* **Backtracking** - similarly to brute force, try to generate all possible solutions, but each time you generate next solution you test
-if it satisfies all conditions, and only then continue generating subsequent solutions. Otherwise, backtrack, and go on a
-different path of finding a solution. Normally the DFS traversal of state-space is being used.
+* **Backtracking** - similmente alla forza bruta, prova a generare tutte le possibili soluzioni, ma ogni volta che generi la prossima soluzione prova
+se soddisfa tutte le condizioni, e solo allora continua a generare soluzioni successive. Altrimenti, torna indietro e vai su a
+percorso diverso per trovare una soluzione. Normalmente viene utilizzata la traversata DFS dello spazio degli stati.
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game)
   * `B` [Unique Paths](src/algorithms/uncategorized/unique-paths)
   * `B` [Power Set](src/algorithms/sets/power-set) - all subsets of a set
