@@ -107,4 +107,6 @@ _Read this in other languages:_
   * `B` [シェルソート](src/algorithms/sorting/shell-sort)
   * `B` [並べ替えを数える](src/algorithms/sorting/counting-sort)
   * `B` [基数ソート](src/algorithms/sorting/radix-sort)
-  
+  * **リンクされたリスト**
+  * `B` [ストレートトラバーサル](src/algorithms/linked-list/traversal)
+  * `B` [逆方向のトラバーサル](src/algorithms/linked-list/reverse-traversal)
