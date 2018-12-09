@@ -140,3 +140,7 @@ _Read this in other languages:_
   * `B` [再帰的階段](src/algorithms/uncategorized/recursive-staircase) - 上に到達する方法の数を数える（4つのソリューション）
   * `A` [N-クイーンズ問題](src/algorithms/uncategorized/n-queens)
   * `A` [ナイトツアー](src/algorithms/uncategorized/knight-tour)
+
+### Paradigmによるアルゴリズム
+
+アルゴリズムパラダイムは、あるクラスのアルゴリズムの設計の基礎をなす一般的な方法またはアプローチである。それは、アルゴリズムがコンピュータプログラムよりも高い抽象であるのと同様に、アルゴリズムの概念よりも高い抽象である。
