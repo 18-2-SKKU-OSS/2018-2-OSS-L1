@@ -1,16 +1,16 @@
-# JavaScript Algorithms and Data Structures
+# Algoritmi e strutture dati JavaScript
 
 [![Build Status](https://travis-ci.org/trekhleb/javascript-algorithms.svg?branch=master)](https://travis-ci.org/trekhleb/javascript-algorithms)
 [![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
 
-This repository contains JavaScript based examples of many
-popular algorithms and data structures.
+Questo repository contiene esempi basati su JavaScript di molti
+algoritmi e strutture dati popolari.
 
-Each algorithm and data structure has its own separate README
-with related explanations and links for further reading (including ones
-to YouTube videos).
+Ogni algoritmo e struttura dati ha il suo README separato
+con spiegazioni e collegamenti correlati per ulteriori letture (comprese quelle
+ai video di YouTube).
 
-_Read this in other languages:_
+_Leggi questo in altre lingue:_
 [_简体中文_](README.zh-CN.md),
 [_繁體中文_](README.zh-TW.md),
 [_한국어_](README.ko-KR.md),
@@ -19,8 +19,8 @@ _Read this in other languages:_
 [_Español_](README.es-ES.md),
 [_Português_](README.pt-BR.md)
 
-*☝ Note that this project is meant to be used for learning and researching purposes 
-only and it is **not** meant to be used for production.*
+*☝ Si noti che questo progetto è pensato per essere utilizzato per scopi di apprendimento e ricerca
+solo e **non** è pensato per essere utilizzato per la produzione.*
 
 ## Data Structures
 
