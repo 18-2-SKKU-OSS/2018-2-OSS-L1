@@ -21,6 +21,11 @@ authors:
     display_name: "류민재"
     description: "Bogo Sort 알고리즘을 추가하였습니다."
     gravatar: 517ab59de535a39a401aadfbd1a0fe25
+  김윤지:
+    name: Chang An Choi
+    display_name: Chang An Choi
+    description: "Project Management / Add algorithm(astar algorithm, LCA, etc.) / translation"
+    gravatar: 
   john:
     name: John
     display_name: John
