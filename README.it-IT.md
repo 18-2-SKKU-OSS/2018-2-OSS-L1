@@ -133,13 +133,13 @@ un insieme di regole che definiscono con precisione una sequenza di operazioni.
   * `A` [Problema del commesso viaggiatore](src/algorithms/graph/travelling-salesman) - shortest possible route that visits each city and returns to the origin city
 * **Crittografia**
   * `B` [Hash polinomiale](src/algorithms/cryptography/polynomial-hash) - rolling hash function based on polynomial
-* **Uncategorized**
-  * `B` [Tower of Hanoi](src/algorithms/uncategorized/hanoi-tower)
-  * `B` [Square Matrix Rotation](src/algorithms/uncategorized/square-matrix-rotation) - in-place algorithm
-  * `B` [Jump Game](src/algorithms/uncategorized/jump-game) - backtracking, dynamic programming (top-down + bottom-up) and greedy examples 
-  * `B` [Unique Paths](src/algorithms/uncategorized/unique-paths) - backtracking, dynamic programming and Pascal's Triangle based examples 
-  * `B` [Rain Terraces](src/algorithms/uncategorized/rain-terraces) - trapping rain water problem (dynamic programming and brute force versions)
-  * `B` [Recursive Staircase](src/algorithms/uncategorized/recursive-staircase) - count the number of ways to reach to the top (4 solutions)
+* **Non categorizzato**
+  * `B` [Torre di Hanoi](src/algorithms/uncategorized/hanoi-tower)
+  * `B` [Rotazione a matrice quadrata](src/algorithms/uncategorized/square-matrix-rotation) - in-place algorithm
+  * `B` [Salta il gioco](src/algorithms/uncategorized/jump-game) - backtracking, dynamic programming (top-down + bottom-up) and greedy examples 
+  * `B` [Percorsi unici](src/algorithms/uncategorized/unique-paths) - backtracking, dynamic programming and Pascal's Triangle based examples 
+  * `B` [Terrazze di pioggia](src/algorithms/uncategorized/rain-terraces) - trapping rain water problem (dynamic programming and brute force versions)
+  * `B` [Scala ricorsiva](src/algorithms/uncategorized/recursive-staircase) - count the number of ways to reach to the top (4 solutions)
   * `A` [N-Queens Problem](src/algorithms/uncategorized/n-queens)
   * `A` [Knight's Tour](src/algorithms/uncategorized/knight-tour)
 
