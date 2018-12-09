@@ -157,3 +157,16 @@ _Read this in other languages:_
   * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - すべてのグラフ頂点への最短経路を見つける
   * `A` [Prim’s Algorithm](src/algorithms/graph/prim) - 重み付き無向グラフの最小スパニングツリー（MST）を見つける
   * `A` [Kruskalのアルゴリズム](src/algorithms/graph/kruskal) - 重み付き無向グラフの最小スパニングツリー（MST）を見つける
+* **分割と征服** - 問題をより小さな部分に分割し、それらの部分を解決する
+  * `B` [バイナリ検索](src/algorithms/search/binary-search)
+  * `B` [ハノイの塔](src/algorithms/uncategorized/hanoi-tower)
+  * `B` [パスカルの三角形](src/algorithms/math/pascal-triangle)
+  * `B` [ユークリッドアルゴリズム](src/algorithms/math/euclidean-algorithm) - GCD（Greatest Common Divisor）を計算する
+  * `B` [マージソート](src/algorithms/sorting/merge-sort)
+  * `B` [クイックソート](src/algorithms/sorting/quick-sort)
+  * `B` [ツリーの深さ優先検索](src/algorithms/tree/depth-first-search) (DFS)
+  * `B` [グラフの深さ優先検索](src/algorithms/graph/depth-first-search) (DFS)
+  * `B` [ジャンプゲーム](src/algorithms/uncategorized/jump-game)
+  * `B` [高速電力供給](src/algorithms/math/fast-powering)
+  * `A` [順列](src/algorithms/sets/permutations) （繰り返しの有無にかかわらず）
+  * `A` [組み合わせ](src/algorithms/sets/combinations)（繰返しあり、繰返しなし）
