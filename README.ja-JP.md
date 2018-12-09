@@ -84,3 +84,11 @@ _Read this in other languages:_
   * `A` [ナップザック問題 ](src/algorithms/sets/knapsack-problem) - 「0/1」と「非結合」問題
   * `A` [最大サブアレイ](src/algorithms/sets/maximum-subarray) - 「ブルートフォース」と「ダイナミックプログラミング」（Kadane's版）
   * `A` [組み合わせ合計](src/algorithms/sets/combination-sum) - 特定の合計を構成するすべての組み合わせを見つける
+  * **文字列**
+  * `B` [ハミング距離](src/algorithms/string/hamming-distance) - シンボルが異なる位置の数
+  * `A` [レーベンシュタイン距離](src/algorithms/string/levenshtein-distance) - 2つのシーケンス間の最小編集距離
+  * `A` [Knuth-Morris-Prattアルゴリズム](src/algorithms/string/knuth-morris-pratt) (KMP Algorithm) - 部分文字列検索 (pattern matching)
+  * `A` [Z アルゴリズム](src/algorithms/string/z-algorithm) - 部分文字列検索 (pattern matching)
+  * `A` [Rabin Karpアルゴリズム](src/algorithms/string/rabin-karp) - 部分文字列検索
+  * `A` [最長共通部分文字列](src/algorithms/string/longest-common-substring)
+  * `A` [正規表現マッチング](src/algorithms/string/regular-expression-matching)
