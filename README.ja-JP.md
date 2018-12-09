@@ -129,3 +129,5 @@ _Read this in other languages:_
   * `A` [ハミルトニアンサイクル](src/algorithms/graph/hamiltonian-cycle) - すべての頂点を正確に1回訪問する
   * `A` [強連結成分](src/algorithms/graph/strongly-connected-components) - コサラジュのアルゴリズム
   * `A` [トラベリングセールスマン問題](src/algorithms/graph/travelling-salesman) - 各都市を訪問し、起点都市に戻る最短経路
+  * **暗号**
+  * `B` [多項式ハッシュ](src/algorithms/cryptography/polynomial-hash) - 関数多項式に基づくハッシュ関数
