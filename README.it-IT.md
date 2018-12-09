@@ -162,19 +162,19 @@ l'algoritmo è un'astrazione più alta di un programma per computer.
   * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - trovare il percorso più breve per tutti i vertici del grafico
   * `A` [Prim’s Algorithm](src/algorithms/graph/prim) - trovare Minimum Spanning Tree (MST) per il grafico ponderato non orientato
   * `A` [Algoritmo di Kruskal](src/algorithms/graph/kruskal) - trovare Minimum Spanning Tree (MST) per il grafico ponderato non orientato
-* **Divide and Conquer** - divide the problem into smaller parts and then solve those parts
-  * `B` [Binary Search](src/algorithms/search/binary-search)
-  * `B` [Tower of Hanoi](src/algorithms/uncategorized/hanoi-tower)
+* **Dividi e Conquista** - dividi il problema in parti più piccole e poi risolvi quelle parti
+  * `B` [Ricerca binaria](src/algorithms/search/binary-search)
+  * `B` [Torre di Hanoi](src/algorithms/uncategorized/hanoi-tower)
   * `B` [Pascal's Triangle](src/algorithms/math/pascal-triangle)
-  * `B` [Euclidean Algorithm](src/algorithms/math/euclidean-algorithm) - calculate the Greatest Common Divisor (GCD)
+  * `B` [Algoritmo euclideo](src/algorithms/math/euclidean-algorithm) - calcola il più grande divisore comune (GCD)
   * `B` [Merge Sort](src/algorithms/sorting/merge-sort)
   * `B` [Quicksort](src/algorithms/sorting/quick-sort)
   * `B` [Tree Depth-First Search](src/algorithms/tree/depth-first-search) (DFS)
   * `B` [Graph Depth-First Search](src/algorithms/graph/depth-first-search) (DFS)
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game)
   * `B` [Fast Powering](src/algorithms/math/fast-powering)
-  * `A` [Permutations](src/algorithms/sets/permutations) (with and without repetitions)
-  * `A` [Combinations](src/algorithms/sets/combinations) (with and without repetitions)
+  * `A` [Permutazione](src/algorithms/sets/permutations) (con e senza ripetizioni)
+  * `A` [Combinazioni](src/algorithms/sets/combinations) (con e senza ripetizioni)
 * **Dynamic Programming** - build up a solution using previously found sub-solutions
   * `B` [Fibonacci Number](src/algorithms/math/fibonacci)
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game)
