@@ -170,3 +170,20 @@ _Read this in other languages:_
   * `B` [高速電力供給](src/algorithms/math/fast-powering)
   * `A` [順列](src/algorithms/sets/permutations) （繰り返しの有無にかかわらず）
   * `A` [組み合わせ](src/algorithms/sets/combinations)（繰返しあり、繰返しなし）
+* **動的プログラミング** - 以前に発見されたサブソリューションを使用してソリューションを構築する
+  * `B` [フィボナッチ数](src/algorithms/math/fibonacci)
+  * `B` [ジャンプゲーム](src/algorithms/uncategorized/jump-game)
+  * `B` [ユニークなパス](src/algorithms/uncategorized/unique-paths)
+  * `B` [雨テラス](src/algorithms/uncategorized/rain-terraces) - トラップ雨水問題
+  * `B` [再帰的階段](src/algorithms/uncategorized/recursive-staircase) - 上に到達する方法の数を数える
+  * `A` [Levenshtein Distance](src/algorithms/string/levenshtein-distance) - 2つのシーケンス間の最小編集距離
+  * `A` [最長共通部分列](src/algorithms/sets/longest-common-subsequence) (LCS)
+  * `A` [最長共通部分文字列](src/algorithms/string/longest-common-substring)
+  * `A` [最長増加サブシーケンス](src/algorithms/sets/longest-increasing-subsequence)
+  * `A` [最短共通共通配列](src/algorithms/sets/shortest-common-supersequence)
+  * `A` [0/1ナップザック問題](src/algorithms/sets/knapsack-problem)
+  * `A` [整数パーティション](src/algorithms/math/integer-partition)
+  * `A` [最大サブアレイ](src/algorithms/sets/maximum-subarray)
+  * `A` [Bellman-Fordアルゴリズム](src/algorithms/graph/bellman-ford) - すべてのグラフ頂点への最短経路を見つける
+  * `A` [Floyd-Warshallアルゴリズム](src/algorithms/graph/floyd-warshall) - すべての頂点ペア間の最短経路を見つける
+  * `A` [正規表現マッチング](src/algorithms/string/regular-expression-matching)
