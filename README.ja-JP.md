@@ -151,3 +151,9 @@ _Read this in other languages:_
   * `A` [最大サブアレイ](src/algorithms/sets/maximum-subarray)
   * `A` [旅行セールスマン問題](src/algorithms/graph/travelling-salesman) - 各都市を訪れ、起点都市に戻る最短ルート
   * `A` [離散フーリエ変換](src/algorithms/math/fourier-transform) - 時間（信号）の関数をそれを構成する周波数に分解する
+* **欲張り** - 未来を考慮することなく、現時点で最適なオプションを選択する
+  * `B` [ジャンプゲーム](src/algorithms/uncategorized/jump-game)
+  * `A` [結合されていないナップザック問題](src/algorithms/sets/knapsack-problem)
+  * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - すべてのグラフ頂点への最短経路を見つける
+  * `A` [Prim’s Algorithm](src/algorithms/graph/prim) - 重み付き無向グラフの最小スパニングツリー（MST）を見つける
+  * `A` [Kruskalのアルゴリズム](src/algorithms/graph/kruskal) - 重み付き無向グラフの最小スパニングツリー（MST）を見つける
