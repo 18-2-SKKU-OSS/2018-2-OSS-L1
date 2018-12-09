@@ -23,26 +23,28 @@ function calcDepth = var function(node) {
   return depth;
 }
 
-/*lowest common ancestor*/
+/* lowest common ancestor */
 export default function lca(rootNode, firstNode, secondNode) {
   const firstDepth = calcDepth(firstNode);
   const secondDepth = calcDepth(secondNode);
-
+  let firstOne = firstNode;
+  let secondOne = secondNode;
+  
   for (let i = 0; i < Math.abs(firstDepth - secondDepth); i = i + 1) {
     if (firstDepth > secondDepth) {
-      firstNode = firstNode.parent;
+      firstOne = firstOne.parent;
     } else {
-      secondNode = secondNode.parent;
+      secondOne = secondOne.parent;
     }
   }
 
-  if (firstNode == secondNode)
-    resultNode = firstNode;
+  if (firstNode === secondNode)
+    return firstOne;
 
-  while (firstNode != secondNode) {
-    firstNode = firstNode.parent;
-    secondNode = secondNode.parent;
+  while (firstOne !== secondOne) {
+    firstOne = firstOne.parent;
+    secondOne = secondOne.parent;
   }
 
-  return firstNode;
+  return firstOne;
 }
