@@ -110,3 +110,10 @@ _Read this in other languages:_
   * **リンクされたリスト**
   * `B` [ストレートトラバーサル](src/algorithms/linked-list/traversal)
   * `B` [逆方向のトラバーサル](src/algorithms/linked-list/reverse-traversal)
+  * **ツリー**
+  * `B` [深度優先検索](src/algorithms/tree/depth-first-search) (DFS)
+  * `B` [幅優先検索](src/algorithms/tree/breadth-first-search) (BFS)
+  * **グラフ**
+  * `B` [深度優先検索](src/algorithms/graph/depth-first-search) (DFS)
+  * `B` [幅優先検索](src/algorithms/graph/breadth-first-search) (BFS)
+  * `B` [Kruskalのアルゴリズム](src/algorithms/graph/kruskal) - 重み付き無向グラフの最小スパニングツリー（MST）の発見 
