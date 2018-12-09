@@ -22,6 +22,8 @@ comments: false
 ## 김민기
 - 2014313107 / rlaalsrl7777@gmail.com / Minki-Kim95
 - Add Sleep Sort 
+- EDIT ReadMe.ko-KR.md
+- ADD ReadMe.ja-JP.md
 
 ## 김장영
 - 2014314068 / kjy276@naver.com / kjy276
