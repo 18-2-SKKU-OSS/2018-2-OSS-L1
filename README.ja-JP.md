@@ -131,3 +131,12 @@ _Read this in other languages:_
   * `A` [トラベリングセールスマン問題](src/algorithms/graph/travelling-salesman) - 各都市を訪問し、起点都市に戻る最短経路
   * **暗号**
   * `B` [多項式ハッシュ](src/algorithms/cryptography/polynomial-hash) - 関数多項式に基づくハッシュ関数
+  * **未分類**
+  * `B` [ハノイの塔](src/algorithms/uncategorized/hanoi-tower)
+  * `B` [正方行列回転](src/algorithms/uncategorized/square-matrix-rotation) - インプレイスアルゴリズム
+  * `B` [ジャンプゲーム](src/algorithms/uncategorized/jump-game) - バックトラック、ダイナミックプログラミング（トップダウン+ボトムアップ）、欲張りの例
+  * `B` [ユニークなパス](src/algorithms/uncategorized/unique-paths) - バックトラック、動的プログラミング、PascalのTriangleベースの例
+  * `B` [レインテラス](src/algorithms/uncategorized/rain-terraces) - トラップ雨水問題（ダイナミックプログラミングとブルートフォースバージョン）
+  * `B` [再帰的階段](src/algorithms/uncategorized/recursive-staircase) - 上に到達する方法の数を数える（4つのソリューション）
+  * `A` [N-クイーンズ問題](src/algorithms/uncategorized/n-queens)
+  * `A` [ナイトツアー](src/algorithms/uncategorized/knight-tour)
