@@ -143,11 +143,11 @@ un insieme di regole che definiscono con precisione una sequenza di operazioni.
   * `A` [N-Queens Problem](src/algorithms/uncategorized/n-queens)
   * `A` [Knight's Tour](src/algorithms/uncategorized/knight-tour)
 
-### Algorithms by Paradigm
+### Algoritmi di Paradigm
 
-An algorithmic paradigm is a generic method or approach which underlies the design of a class
-of algorithms. It is an abstraction higher than the notion of an algorithm, just as an
-algorithm is an abstraction higher than a computer program.
+Un paradigma algoritmico è un metodo o approccio generico alla base del design di una classe
+di algoritmi. È un'astrazione superiore alla nozione di algoritmo, proprio come a
+l'algoritmo è un'astrazione più alta di un programma per computer.
 
 * **Brute Force** - look at all the possibilities and selects the best solution
   * `B` [Linear Search](src/algorithms/search/linear-search)
