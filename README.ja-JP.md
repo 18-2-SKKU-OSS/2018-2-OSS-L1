@@ -223,3 +223,15 @@ npm test
 **名前でテストを実行する**
 ```
 npm test -- 'LinkedList'
+```
+
+**playground**
+
+データ構造とアルゴリズムを `./src/playground/playground.js` ファイルで再生し、
+それに対するテストを書くことができ `./src/playground/__test__/playground.test.js`.
+
+次に、次のコマンドを実行して、遊び場コードが正常に動作するかどうかをテストします。
+
+```
+npm test -- 'playground'
+```
