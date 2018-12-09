@@ -115,24 +115,24 @@ un insieme di regole che definiscono con precisione una sequenza di operazioni.
 * **Alberi**
   * `B` [Depth-First Search](src/algorithms/tree/depth-first-search) (DFS)
   * `B` [Larghezza prima ricerca](src/algorithms/tree/breadth-first-search) (BFS)
-* **Graphs**
+* **grafici**
   * `B` [Depth-First Search](src/algorithms/graph/depth-first-search) (DFS)
   * `B` [Breadth-First Search](src/algorithms/graph/breadth-first-search) (BFS)
-  * `B` [Kruskal’s Algorithm](src/algorithms/graph/kruskal) - finding Minimum Spanning Tree (MST) for weighted undirected graph
-  * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - finding shortest paths to all graph vertices from single vertex
-  * `A` [Bellman-Ford Algorithm](src/algorithms/graph/bellman-ford) - finding shortest paths to all graph vertices from single vertex
-  * `A` [Floyd-Warshall Algorithm](src/algorithms/graph/floyd-warshall) - find shortest paths between all pairs of vertices
-  * `A` [Detect Cycle](src/algorithms/graph/detect-cycle) - for both directed and undirected graphs (DFS and Disjoint Set based versions)
-  * `A` [Prim’s Algorithm](src/algorithms/graph/prim) - finding Minimum Spanning Tree (MST) for weighted undirected graph
-  * `A` [Topological Sorting](src/algorithms/graph/topological-sorting) - DFS method
-  * `A` [Articulation Points](src/algorithms/graph/articulation-points) - Tarjan's algorithm (DFS based)
-  * `A` [Bridges](src/algorithms/graph/bridges) - DFS based algorithm
-  * `A` [Eulerian Path and Eulerian Circuit](src/algorithms/graph/eulerian-path) - Fleury's algorithm - Visit every edge exactly once
-  * `A` [Hamiltonian Cycle](src/algorithms/graph/hamiltonian-cycle) - Visit every vertex exactly once
-  * `A` [Strongly Connected Components](src/algorithms/graph/strongly-connected-components) - Kosaraju's algorithm
-  * `A` [Travelling Salesman Problem](src/algorithms/graph/travelling-salesman) - shortest possible route that visits each city and returns to the origin city
-* **Cryptography**
-  * `B` [Polynomial Hash](src/algorithms/cryptography/polynomial-hash) - rolling hash function based on polynomial
+  * `B` [Algoritmo di Kruskal](src/algorithms/graph/kruskal) - finding Minimum Spanning Tree (MST) for weighted undirected graph
+  * `A` [Dijkstra Algoritmo](src/algorithms/graph/dijkstra) - finding shortest paths to all graph vertices from single vertex
+  * `A` [Bellman-Ford Algoritmo](src/algorithms/graph/bellman-ford) - finding shortest paths to all graph vertices from single vertex
+  * `A` [Floyd-Warshall Algoritmo](src/algorithms/graph/floyd-warshall) - find shortest paths between all pairs of vertices
+  * `A` [Rileva il ciclo](src/algorithms/graph/detect-cycle) - for both directed and undirected graphs (DFS and Disjoint Set based versions)
+  * `A` [Prim’s Algoritmo](src/algorithms/graph/prim) - finding Minimum Spanning Tree (MST) for weighted undirected graph
+  * `A` [Ordinamento topologico](src/algorithms/graph/topological-sorting) - DFS method
+  * `A` [Punti di articolazione](src/algorithms/graph/articulation-points) - Tarjan's algorithm (DFS based)
+  * `A` [ponti](src/algorithms/graph/bridges) - DFS based algorithm
+  * `A` [Sentiero Euleriano e Circuito Euleriano](src/algorithms/graph/eulerian-path) - Fleury's algorithm - Visit every edge exactly once
+  * `A` [Ciclo hamiltoniano](src/algorithms/graph/hamiltonian-cycle) - Visit every vertex exactly once
+  * `A` [Componenti fortemente connessi](src/algorithms/graph/strongly-connected-components) - Kosaraju's algorithm
+  * `A` [Problema del commesso viaggiatore](src/algorithms/graph/travelling-salesman) - shortest possible route that visits each city and returns to the origin city
+* **Crittografia**
+  * `B` [Hash polinomiale](src/algorithms/cryptography/polynomial-hash) - rolling hash function based on polynomial
 * **Uncategorized**
   * `B` [Tower of Hanoi](src/algorithms/uncategorized/hanoi-tower)
   * `B` [Square Matrix Rotation](src/algorithms/uncategorized/square-matrix-rotation) - in-place algorithm
