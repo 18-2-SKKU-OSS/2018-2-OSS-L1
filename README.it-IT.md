@@ -159,8 +159,8 @@ l'algoritmo è un'astrazione più alta di un programma per computer.
 * **Greedy** - scegli l'opzione migliore al momento attuale, senza alcuna considerazione per il futuro
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game)
   * `A` [Problema dello zaino non legato](src/algorithms/sets/knapsack-problem)
-  * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - trovare il percorso più breve per tutti i vertici del grafico
-  * `A` [Prim’s Algorithm](src/algorithms/graph/prim) - trovare Minimum Spanning Tree (MST) per il grafico ponderato non orientato
+  * `A` [Dijkstra Algoritmo](src/algorithms/graph/dijkstra) - trovare il percorso più breve per tutti i vertici del grafico
+  * `A` [Prim’s Algoritmo](src/algorithms/graph/prim) - trovare Minimum Spanning Tree (MST) per il grafico ponderato non orientato
   * `A` [Algoritmo di Kruskal](src/algorithms/graph/kruskal) - trovare Minimum Spanning Tree (MST) per il grafico ponderato non orientato
 * **Dividi e Conquista** - dividi il problema in parti più piccole e poi risolvi quelle parti
   * `B` [Ricerca binaria](src/algorithms/search/binary-search)
@@ -175,22 +175,22 @@ l'algoritmo è un'astrazione più alta di un programma per computer.
   * `B` [Fast Powering](src/algorithms/math/fast-powering)
   * `A` [Permutazione](src/algorithms/sets/permutations) (con e senza ripetizioni)
   * `A` [Combinazioni](src/algorithms/sets/combinations) (con e senza ripetizioni)
-* **Dynamic Programming** - build up a solution using previously found sub-solutions
-  * `B` [Fibonacci Number](src/algorithms/math/fibonacci)
+* **Programmazione dinamica** - crea una soluzione utilizzando sub-soluzioni trovate in precedenza
+  * `B` [numero di Fibonacci](src/algorithms/math/fibonacci)
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game)
-  * `B` [Unique Paths](src/algorithms/uncategorized/unique-paths)
-  * `B` [Rain Terraces](src/algorithms/uncategorized/rain-terraces) - trapping rain water problem
-  * `B` [Recursive Staircase](src/algorithms/uncategorized/recursive-staircase) - count the number of ways to reach to the top
-  * `A` [Levenshtein Distance](src/algorithms/string/levenshtein-distance) - minimum edit distance between two sequences
+  * `B` [Percorsi univoci](src/algorithms/uncategorized/unique-paths)
+  * `B` [Rain Terraces](src/algorithms/uncategorized/rain-terraces) - intrappolando il problema dell'acqua piovana
+  * `B` [Scala ricorsiva](src/algorithms/uncategorized/recursive-staircase) - contare il numero di modi per raggiungere la cima
+  * `A` [Levenshtein Distance](src/algorithms/string/levenshtein-distance) - distanza minima di modifica tra due sequenze
   * `A` [Longest Common Subsequence](src/algorithms/sets/longest-common-subsequence) (LCS)
   * `A` [Longest Common Substring](src/algorithms/string/longest-common-substring)
   * `A` [Longest Increasing Subsequence](src/algorithms/sets/longest-increasing-subsequence)
-  * `A` [Shortest Common Supersequence](src/algorithms/sets/shortest-common-supersequence)
+  * `A` [Supersequence comune più breve](src/algorithms/sets/shortest-common-supersequence)
   * `A` [0/1 Knapsack Problem](src/algorithms/sets/knapsack-problem)
   * `A` [Integer Partition](src/algorithms/math/integer-partition)
   * `A` [Maximum Subarray](src/algorithms/sets/maximum-subarray)
-  * `A` [Bellman-Ford Algorithm](src/algorithms/graph/bellman-ford) - finding shortest path to all graph vertices
-  * `A` [Floyd-Warshall Algorithm](src/algorithms/graph/floyd-warshall) - find shortest paths between all pairs of vertices
+  * `A` [Algoritmo Bellman-Ford](src/algorithms/graph/bellman-ford) - trovare il percorso più breve per tutti i vertici del grafico
+  * `A` [Floyd-Warshall Algoritmo](src/algorithms/graph/floyd-warshall) - find shortest paths between all pairs of vertices
   * `A` [Regular Expression Matching](src/algorithms/string/regular-expression-matching)
 * **Backtracking** - similarly to brute force, try to generate all possible solutions, but each time you generate next solution you test
 if it satisfies all conditions, and only then continue generating subsequent solutions. Otherwise, backtrack, and go on a
