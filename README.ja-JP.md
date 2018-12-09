@@ -117,3 +117,15 @@ _Read this in other languages:_
   * `B` [深度優先検索](src/algorithms/graph/depth-first-search) (DFS)
   * `B` [幅優先検索](src/algorithms/graph/breadth-first-search) (BFS)
   * `B` [Kruskalのアルゴリズム](src/algorithms/graph/kruskal) - 重み付き無向グラフの最小スパニングツリー（MST）の発見 
+  * `A` [Dijkstraアルゴリズム](src/algorithms/graph/dijkstra) - 単一の頂点からすべてのグラフ頂点への最短経路を見つける
+  * `A` [Bellman-Fordアルゴリズム](src/algorithms/graph/bellman-ford) - 単一の頂点からすべてのグラフ頂点への最短経路を見つける
+  * `A` [Floyd-Warshallアルゴリズム](src/algorithms/graph/floyd-warshall) - すべての頂点ペア間の最短経路を見つける
+  * `A` [Detect Cycle](src/algorithms/graph/detect-cycle) - 有向グラフと無向グラフの両方（DFSおよびディスジョイントセットベースのバージョン）
+  * `A` [プリムのアルゴリズム](src/algorithms/graph/prim) - 重み付き無向グラフの最小スパニングツリー（MST）の発見
+  * `A` [トポロジカルソート](src/algorithms/graph/topological-sorting) - DFSメソッド
+  * `A` [アーティキュレーションポイント](src/algorithms/graph/articulation-points) - Tarjanのアルゴリズム（DFSベース）
+  * `A` [ブリッジ ](src/algorithms/graph/bridges) - DFSベースのアルゴリズム
+  * `A` [オイラーパスとオイラー回路](src/algorithms/graph/eulerian-path) - フルリーアルゴリズム - すべてのエッジを正確に1回訪問する
+  * `A` [ハミルトニアンサイクル](src/algorithms/graph/hamiltonian-cycle) - すべての頂点を正確に1回訪問する
+  * `A` [強連結成分](src/algorithms/graph/strongly-connected-components) - コサラジュのアルゴリズム
+  * `A` [トラベリングセールスマン問題](src/algorithms/graph/travelling-salesman) - 各都市を訪問し、起点都市に戻る最短経路
