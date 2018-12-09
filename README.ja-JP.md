@@ -97,3 +97,14 @@ _Read this in other languages:_
   * `B` [ジャンプ検索](src/algorithms/search/jump-search) (or Block Search) - ソートされた配列で検索
   * `B` [バイナリ検索](src/algorithms/search/binary-search) - ソートされた配列で検索
   * `B` [補間探索](src/algorithms/search/interpolation-search) - 一様分布のソート配列で検索する
+  * **並べ替え**
+  * `B` [バブルソート](src/algorithms/sorting/bubble-sort)
+  * `B` [選択ソート](src/algorithms/sorting/selection-sort)
+  * `B` [挿入ソート](src/algorithms/sorting/insertion-sort)
+  * `B` [ヒープソート](src/algorithms/sorting/heap-sort)
+  * `B` [マージソート](src/algorithms/sorting/merge-sort)
+  * `B` [クイックソート](src/algorithms/sorting/quick-sort) -インプレースおよび非インプレース・インプリメンテーション
+  * `B` [シェルソート](src/algorithms/sorting/shell-sort)
+  * `B` [並べ替えを数える](src/algorithms/sorting/counting-sort)
+  * `B` [基数ソート](src/algorithms/sorting/radix-sort)
+  
