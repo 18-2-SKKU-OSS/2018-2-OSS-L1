@@ -22,32 +22,32 @@ _Leggi questo in altre lingue:_
 *☝ Si noti che questo progetto è pensato per essere utilizzato per scopi di apprendimento e ricerca
 solo e **non** è pensato per essere utilizzato per la produzione.*
 
-## Data Structures
+## Strutture dati
 
-A data structure is a particular way of organizing and storing data in a computer so that it can
-be accessed and modified efficiently. More precisely, a data structure is a collection of data
-values, the relationships among them, and the functions or operations that can be applied to
-the data.
+Una struttura dati è un modo particolare di organizzare e archiviare i dati in un computer in modo che possa
+essere accessibili e modificati in modo efficiente. Più precisamente, una struttura dati è una raccolta di dati
+valori, le relazioni tra loro e le funzioni o le operazioni a cui è possibile applicare
+i dati.
 
-`B` - Beginner, `A` - Advanced
+`B` - Principiante, `A` - Avanzate
 
-* `B` [Linked List](src/data-structures/linked-list)
-* `B` [Doubly Linked List](src/data-structures/doubly-linked-list)
-* `B` [Queue](src/data-structures/queue)
-* `B` [Stack](src/data-structures/stack)
-* `B` [Hash Table](src/data-structures/hash-table)
-* `B` [Heap](src/data-structures/heap) - max and min heap versions
-* `B` [Priority Queue](src/data-structures/priority-queue)
-* `A` [Trie](src/data-structures/trie)
-* `A` [Tree](src/data-structures/tree)
-  * `A` [Binary Search Tree](src/data-structures/tree/binary-search-tree)
-  * `A` [AVL Tree](src/data-structures/tree/avl-tree)
-  * `A` [Red-Black Tree](src/data-structures/tree/red-black-tree)
-  * `A` [Segment Tree](src/data-structures/tree/segment-tree) - with min/max/sum range queries examples
-  * `A` [Fenwick Tree](src/data-structures/tree/fenwick-tree) (Binary Indexed Tree)
-* `A` [Graph](src/data-structures/graph) (both directed and undirected)
-* `A` [Disjoint Set](src/data-structures/disjoint-set)
-* `A` [Bloom Filter](src/data-structures/bloom-filter)
+* `B` [Lista collegata](src/data-structures/linked-list)
+* `B` [Lista Doubly Linked](src/data-structures/doubly-linked-list)
+* `B` [Coda](src/data-structures/queue)
+* `B` [Pila](src/data-structures/stack)
+* `B` [Tabella hash](src/data-structures/hash-table)
+* `B` [Mucchio](src/data-structures/heap) - max and min heap versions
+* `B` [Coda prioritaria](src/data-structures/priority-queue)
+* `A` [prova](src/data-structures/trie)
+* `A` [Albero](src/data-structures/tree)
+  * `A` [Albero di ricerca binario](src/data-structures/tree/binary-search-tree)
+  * `A` [Albero AVL](src/data-structures/tree/avl-tree)
+  * `A` [Albero rosso-nero](src/data-structures/tree/red-black-tree)
+  * `A` [Albero del segmento](src/data-structures/tree/segment-tree) - with min/max/sum range queries examples
+  * `A` [Albero di Fenwick](src/data-structures/tree/fenwick-tree) (Binary Indexed Tree)
+* `A` [Grafico](src/data-structures/graph) (both directed and undirected)
+* `A` [Set disgiunto](src/data-structures/disjoint-set)
+* `A` [Filtro Bloom](src/data-structures/bloom-filter)
 
 ## Algorithms
 
