@@ -144,3 +144,10 @@ _Read this in other languages:_
 ### Paradigmによるアルゴリズム
 
 アルゴリズムパラダイムは、あるクラスのアルゴリズムの設計の基礎をなす一般的な方法またはアプローチである。それは、アルゴリズムがコンピュータプログラムよりも高い抽象であるのと同様に、アルゴリズムの概念よりも高い抽象である。
+* **ブルートフォース** - べての可能性を見て最適なソリューションを選択する
+  * `B` [線形探索](src/algorithms/search/linear-search)
+  * `B` [レインテラス](src/algorithms/uncategorized/rain-terraces) - 雨水問題
+  * `B` [Recursive Staircase](src/algorithms/uncategorized/recursive-staircase) - 先頭に到達する方法の数を数えます
+  * `A` [最大サブアレイ](src/algorithms/sets/maximum-subarray)
+  * `A` [旅行セールスマン問題](src/algorithms/graph/travelling-salesman) - 各都市を訪れ、起点都市に戻る最短ルート
+  * `A` [離散フーリエ変換](src/algorithms/math/fourier-transform) - 時間（信号）の関数をそれを構成する周波数に分解する
