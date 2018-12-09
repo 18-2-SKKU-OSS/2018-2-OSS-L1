@@ -49,52 +49,52 @@ i dati.
 * `A` [Set disgiunto](src/data-structures/disjoint-set)
 * `A` [Filtro Bloom](src/data-structures/bloom-filter)
 
-## Algorithms
+## algoritmi
 
-An algorithm is an unambiguous specification of how to solve a class of problems. It is
-a set of rules that precisely define a sequence of operations.
+Un algoritmo è una specifica inequivocabile su come risolvere una classe di problemi. È
+un insieme di regole che definiscono con precisione una sequenza di operazioni.
 
-`B` - Beginner, `A` - Advanced
+`B` - Principiante, `A` - Avanzate
 
-### Algorithms by Topic
+### Algoritmi per argomento
 
-* **Math**
-  * `B` [Bit Manipulation](src/algorithms/math/bits) - set/get/update/clear bits, multiplication/division by two, make negative etc.
-  * `B` [Factorial](src/algorithms/math/factorial) 
-  * `B` [Fibonacci Number](src/algorithms/math/fibonacci) - classic and closed-form versions
-  * `B` [Primality Test](src/algorithms/math/primality-test) (trial division method)
-  * `B` [Euclidean Algorithm](src/algorithms/math/euclidean-algorithm) - calculate the Greatest Common Divisor (GCD)
-  * `B` [Least Common Multiple](src/algorithms/math/least-common-multiple) (LCM)
-  * `B` [Sieve of Eratosthenes](src/algorithms/math/sieve-of-eratosthenes) - finding all prime numbers up to any given limit
-  * `B` [Is Power of Two](src/algorithms/math/is-power-of-two) - check if the number is power of two (naive and bitwise algorithms)
-  * `B` [Pascal's Triangle](src/algorithms/math/pascal-triangle)
-  * `B` [Complex Number](src/algorithms/math/complex-number) - complex numbers and basic operations with them
+* **Matematica**
+  * `B` [Manipolazione bit](src/algorithms/math/bits) - set/get/update/clear bits, multiplication/division by two, make negative etc.
+  * `B` [Fattoriale](src/algorithms/math/factorial) 
+  * `B` [Numero di Fibonacci](src/algorithms/math/fibonacci) - classic and closed-form versions
+  * `B` [Test di primalità](src/algorithms/math/primality-test) (trial division method)
+  * `B` [Algoritmo euclideo](src/algorithms/math/euclidean-algorithm) - calculate the Greatest Common Divisor (GCD)
+  * `B` [Minimo comune multiplo](src/algorithms/math/least-common-multiple) (LCM)
+  * `B` [Setaccio di Eratostene](src/algorithms/math/sieve-of-eratosthenes) - finding all prime numbers up to any given limit
+  * `B` [È il potere di due](src/algorithms/math/is-power-of-two) - check if the number is power of two (naive and bitwise algorithms)
+  * `B` [Triangolo di Pascal](src/algorithms/math/pascal-triangle)
+  * `B` [Numero complesso](src/algorithms/math/complex-number) - complex numbers and basic operations with them
   * `B` [Radian & Degree](src/algorithms/math/radian) - radians to degree and backwards conversion
-  * `B` [Fast Powering](src/algorithms/math/fast-powering)
-  * `A` [Integer Partition](src/algorithms/math/integer-partition)
-  * `A` [Liu Hui π Algorithm](src/algorithms/math/liu-hui) - approximate π calculations based on N-gons
-  * `A` [Discrete Fourier Transform](src/algorithms/math/fourier-transform) - decompose a function of time (a signal) into the frequencies that make it up 
+  * `B` [Alimentazione veloce](src/algorithms/math/fast-powering)
+  * `A` [Partizione intera](src/algorithms/math/integer-partition)
+  * `A` [Algoritmo di Liu Hui π](src/algorithms/math/liu-hui) - approximate π calculations based on N-gons
+  * `A` [Trasformata di Fourier discreta](src/algorithms/math/fourier-transform) - decompose a function of time (a signal) into the frequencies that make it up 
 * **Sets**
-  * `B` [Cartesian Product](src/algorithms/sets/cartesian-product) - product of multiple sets
+  * `B` [Prodotto cartesiano](src/algorithms/sets/cartesian-product) - product of multiple sets
   * `B` [Fisher–Yates Shuffle](src/algorithms/sets/fisher-yates) - random permutation of a finite sequence
   * `A` [Power Set](src/algorithms/sets/power-set) - all subsets of a set (bitwise and backtracking solutions)
-  * `A` [Permutations](src/algorithms/sets/permutations) (with and without repetitions)
-  * `A` [Combinations](src/algorithms/sets/combinations) (with and without repetitions)
-  * `A` [Longest Common Subsequence](src/algorithms/sets/longest-common-subsequence) (LCS)
-  * `A` [Longest Increasing Subsequence](src/algorithms/sets/longest-increasing-subsequence)
-  * `A` [Shortest Common Supersequence](src/algorithms/sets/shortest-common-supersequence) (SCS)
-  * `A` [Knapsack Problem](src/algorithms/sets/knapsack-problem) - "0/1" and "Unbound" ones
-  * `A` [Maximum Subarray](src/algorithms/sets/maximum-subarray) - "Brute Force" and "Dynamic Programming" (Kadane's) versions
-  * `A` [Combination Sum](src/algorithms/sets/combination-sum) - find all combinations that form specific sum
-* **Strings**
+  * `A` [permutazioni](src/algorithms/sets/permutations) (with and without repetitions)
+  * `A` [combinazioni](src/algorithms/sets/combinations) (with and without repetitions)
+  * `A` [La più lunga successiva in comune](src/algorithms/sets/longest-common-subsequence) (LCS)
+  * `A` [Il più lungo aumento successivo](src/algorithms/sets/longest-increasing-subsequence)
+  * `A` [Short Supersequence più breve](src/algorithms/sets/shortest-common-supersequence) (SCS)
+  * `A` [Problema dello zaino](src/algorithms/sets/knapsack-problem) - "0/1" and "Unbound" ones
+  * `A` [Subarray massimo](src/algorithms/sets/maximum-subarray) - "Brute Force" and "Dynamic Programming" (Kadane's) versions
+  * `A` [Somma combinata](src/algorithms/sets/combination-sum) - find all combinations that form specific sum
+* **stringhe**
   * `B` [Hamming Distance](src/algorithms/string/hamming-distance) - number of positions at which the symbols are different
   * `A` [Levenshtein Distance](src/algorithms/string/levenshtein-distance) - minimum edit distance between two sequences
-  * `A` [Knuth–Morris–Pratt Algorithm](src/algorithms/string/knuth-morris-pratt) (KMP Algorithm) - substring search (pattern matching)
-  * `A` [Z Algorithm](src/algorithms/string/z-algorithm) - substring search (pattern matching)
-  * `A` [Rabin Karp Algorithm](src/algorithms/string/rabin-karp) - substring search
-  * `A` [Longest Common Substring](src/algorithms/string/longest-common-substring)
-  * `A` [Regular Expression Matching](src/algorithms/string/regular-expression-matching)
-* **Searches**
+  * `A` [Algoritmo di Knuth-Morris-Pratt](src/algorithms/string/knuth-morris-pratt) (KMP Algorithm) - substring search (pattern matching)
+  * `A` [Z Algoritmo](src/algorithms/string/z-algorithm) - substring search (pattern matching)
+  * `A` [Rabin Karp Algoritmo](src/algorithms/string/rabin-karp) - substring search
+  * `A` [La sottostringa comune più lunga](src/algorithms/string/longest-common-substring)
+  * `A` [Corrispondenza delle espressioni regolari](src/algorithms/string/regular-expression-matching)
+* **ricerche**
   * `B` [Linear Search](src/algorithms/search/linear-search)
   * `B` [Jump Search](src/algorithms/search/jump-search) (or Block Search) - search in sorted array
   * `B` [Binary Search](src/algorithms/search/binary-search) - search in sorted array
