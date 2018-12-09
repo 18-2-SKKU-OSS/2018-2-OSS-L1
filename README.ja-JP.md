@@ -92,3 +92,8 @@ _Read this in other languages:_
   * `A` [Rabin Karpアルゴリズム](src/algorithms/string/rabin-karp) - 部分文字列検索
   * `A` [最長共通部分文字列](src/algorithms/string/longest-common-substring)
   * `A` [正規表現マッチング](src/algorithms/string/regular-expression-matching)
+  * **検索**
+  * `B` [リニアサーチ](src/algorithms/search/linear-search)
+  * `B` [ジャンプ検索](src/algorithms/search/jump-search) (or Block Search) - ソートされた配列で検索
+  * `B` [バイナリ検索](src/algorithms/search/binary-search) - ソートされた配列で検索
+  * `B` [補間探索](src/algorithms/search/interpolation-search) - 一様分布のソート配列で検索する
