@@ -149,19 +149,19 @@ Un paradigma algoritmico è un metodo o approccio generico alla base del design 
 di algoritmi. È un'astrazione superiore alla nozione di algoritmo, proprio come a
 l'algoritmo è un'astrazione più alta di un programma per computer.
 
-* **Brute Force** - look at all the possibilities and selects the best solution
-  * `B` [Linear Search](src/algorithms/search/linear-search)
-  * `B` [Rain Terraces](src/algorithms/uncategorized/rain-terraces) - trapping rain water problem
-  * `B` [Recursive Staircase](src/algorithms/uncategorized/recursive-staircase) - count the number of ways to reach to the top
+* **Brute Force** - guarda tutte le possibilità e seleziona la soluzione migliore
+  * `B` [Ricerca lineare](src/algorithms/search/linear-search)
+  * `B` [Rain Terraces](src/algorithms/uncategorized/rain-terraces) - intrappolando il problema dell'acqua piovana
+  * `B` [Scala ricorsiva](src/algorithms/uncategorized/recursive-staircase) - contare il numero di modi per raggiungere la cima
   * `A` [Maximum Subarray](src/algorithms/sets/maximum-subarray)
-  * `A` [Travelling Salesman Problem](src/algorithms/graph/travelling-salesman) - shortest possible route that visits each city and returns to the origin city
-  * `A` [Discrete Fourier Transform](src/algorithms/math/fourier-transform) - decompose a function of time (a signal) into the frequencies that make it up
-* **Greedy** - choose the best option at the current time, without any consideration for the future
+  * `A` [Problema del commesso viaggiatore](src/algorithms/graph/travelling-salesman) - il percorso più breve possibile che visita ciascuna città e ritorna alla città di origine
+  * `A` [Discrete Fourier Transform](src/algorithms/math/fourier-transform) - decompone una funzione del tempo (un segnale) nelle frequenze che lo compongono
+* **Greedy** - scegli l'opzione migliore al momento attuale, senza alcuna considerazione per il futuro
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game)
-  * `A` [Unbound Knapsack Problem](src/algorithms/sets/knapsack-problem)
-  * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - finding shortest path to all graph vertices
-  * `A` [Prim’s Algorithm](src/algorithms/graph/prim) - finding Minimum Spanning Tree (MST) for weighted undirected graph
-  * `A` [Kruskal’s Algorithm](src/algorithms/graph/kruskal) - finding Minimum Spanning Tree (MST) for weighted undirected graph
+  * `A` [Problema dello zaino non legato](src/algorithms/sets/knapsack-problem)
+  * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - trovare il percorso più breve per tutti i vertici del grafico
+  * `A` [Prim’s Algorithm](src/algorithms/graph/prim) - trovare Minimum Spanning Tree (MST) per il grafico ponderato non orientato
+  * `A` [Algoritmo di Kruskal](src/algorithms/graph/kruskal) - trovare Minimum Spanning Tree (MST) per il grafico ponderato non orientato
 * **Divide and Conquer** - divide the problem into smaller parts and then solve those parts
   * `B` [Binary Search](src/algorithms/search/binary-search)
   * `B` [Tower of Hanoi](src/algorithms/uncategorized/hanoi-tower)
