@@ -14,7 +14,7 @@ authors:
   김윤지:
     name: 김윤지
     display_name: 김윤지
-    description: "팀 페이지를 만들고 huffman coding 알고리즘을 추가하였습니다."
+    description: "팀 페이지를 만든 김윤지가 작성한 글입니다."
     gravatar: 4e7593f0941f26ba2dd90a916257e062
   류민재:
     name: 류민재
@@ -26,15 +26,12 @@ authors:
     display_name: 최창안
     description: "Project Management / Add algorithm(astar algorithm, LCA, etc.) / translation"
     gravatar: 
-  john:
-    name: John
-    display_name: John
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
-
+  김장영:
+    name: 김장영
+    display_name: 김장영
+    description: 
+    gravatar: 
+    
 # Plugins
 plugins: 
   - jekyll-paginate

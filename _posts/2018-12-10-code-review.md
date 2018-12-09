@@ -2,7 +2,7 @@
 layout: post
 title:  "Code Review 활동"
 author: 김윤지
-categories: [ Jekyll, tutorial ]
+categories: [ activity ]
 image: assets/images/review.png
 ---
 master repository에 pull request를 보내기 전에
