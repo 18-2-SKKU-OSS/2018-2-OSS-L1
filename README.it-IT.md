@@ -196,17 +196,17 @@ l'algoritmo è un'astrazione più alta di un programma per computer.
 se soddisfa tutte le condizioni, e solo allora continua a generare soluzioni successive. Altrimenti, torna indietro e vai su a
 percorso diverso per trovare una soluzione. Normalmente viene utilizzata la traversata DFS dello spazio degli stati.
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game)
-  * `B` [Unique Paths](src/algorithms/uncategorized/unique-paths)
-  * `B` [Power Set](src/algorithms/sets/power-set) - all subsets of a set
-  * `A` [Hamiltonian Cycle](src/algorithms/graph/hamiltonian-cycle) - Visit every vertex exactly once
+  * `B` [Percorsi univoci](src/algorithms/uncategorized/unique-paths)
+  * `B` [Power Set](src/algorithms/sets/power-set) - tutti i sottoinsiemi di un set
+  * `A` [Hamiltonian Cycle](src/algorithms/graph/hamiltonian-cycle) - Visita ogni vertice esattamente una volta
   * `A` [N-Queens Problem](src/algorithms/uncategorized/n-queens)
   * `A` [Knight's Tour](src/algorithms/uncategorized/knight-tour)
-  * `A` [Combination Sum](src/algorithms/sets/combination-sum) - find all combinations that form specific sum
-* **Branch & Bound** - remember the lowest-cost solution found at each stage of the backtracking
-search, and use the cost of the lowest-cost solution found so far as a lower bound on the cost of
-a least-cost solution to the problem, in order to discard partial solutions with costs larger than the
-lowest-cost solution found so far. Normally BFS traversal in combination with DFS traversal of state-space
-tree is being used.
+  * `A` [somma combinata](src/algorithms/sets/combination-sum) - trova tutte le combinazioni che formano la somma specifica
+* **Branch & Bound** - ricorda la soluzione più economica trovata in ogni fase del backtracking
+cerca e utilizza il costo della soluzione più economica trovata fino a un limite inferiore sul costo di
+una soluzione meno costosa al problema, al fine di scartare soluzioni parziali con costi maggiori del
+soluzione più economica trovata finora. Normalmente attraversamento di BFS in combinazione con attraversamento DFS di stato-spazio
+albero viene utilizzato.
 
 ## How to use this repository
 
