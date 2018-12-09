@@ -208,37 +208,37 @@ una soluzione meno costosa al problema, al fine di scartare soluzioni parziali c
 soluzione più economica trovata finora. Normalmente attraversamento di BFS in combinazione con attraversamento DFS di stato-spazio
 albero viene utilizzato.
 
-## How to use this repository
+## Come utilizzare questo repository
 
-**Install all dependencies**
+**Installa tutte le dipendenze**
 ```
 npm install
 ```
 
-**Run ESLint**
+**Esegui ESLint**
 
-You may want to run it to check code quality.
+Si consiglia di eseguirlo per verificare la qualità del codice.
 
 ```
 npm run lint
 ```
 
-**Run all tests**
+**Esegui tutti i test**
 ```
 npm test
 ```
 
-**Run tests by name**
+**Esegui test per nome**
 ```
 npm test -- 'LinkedList'
 ```
 
 **Playground**
 
-You may play with data-structures and algorithms in `./src/playground/playground.js` file and write
-tests for it in `./src/playground/__test__/playground.test.js`.
+Puoi giocare con strutture dati e algoritmi nel file `./src/playground/playground.js`  e scrivere
+prova per questo in `./src/playground/__test__/playground.test.js`.
 
-Then just simply run the following command to test if your playground code works as expected:
+Quindi basta semplicemente eseguire il seguente comando per verificare se il codice del tuo parco giochi funziona come previsto:
 
 ```
 npm test -- 'playground'
