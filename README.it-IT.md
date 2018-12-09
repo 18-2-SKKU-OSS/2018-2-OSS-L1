@@ -95,16 +95,16 @@ un insieme di regole che definiscono con precisione una sequenza di operazioni.
   * `A` [La sottostringa comune più lunga](src/algorithms/string/longest-common-substring)
   * `A` [Corrispondenza delle espressioni regolari](src/algorithms/string/regular-expression-matching)
 * **ricerche**
-  * `B` [Linear Search](src/algorithms/search/linear-search)
-  * `B` [Jump Search](src/algorithms/search/jump-search) (or Block Search) - search in sorted array
-  * `B` [Binary Search](src/algorithms/search/binary-search) - search in sorted array
-  * `B` [Interpolation Search](src/algorithms/search/interpolation-search) - search in uniformly distributed sorted array
-* **Sorting**
-  * `B` [Bubble Sort](src/algorithms/sorting/bubble-sort)
-  * `B` [Selection Sort](src/algorithms/sorting/selection-sort)
-  * `B` [Insertion Sort](src/algorithms/sorting/insertion-sort)
-  * `B` [Heap Sort](src/algorithms/sorting/heap-sort)
-  * `B` [Merge Sort](src/algorithms/sorting/merge-sort)
+  * `B` [Ricerca lineare](src/algorithms/search/linear-search)
+  * `B` [Salta ricerca](src/algorithms/search/jump-search) (or Block Search) - search in sorted array
+  * `B` [Ricerca binaria](src/algorithms/search/binary-search) - search in sorted array
+  * `B` [Ricerca di interpolazione](src/algorithms/search/interpolation-search) - search in uniformly distributed sorted array
+* **Ordinamento**
+  * `B` [Bolla Ordinare](src/algorithms/sorting/bubble-sort)
+  * `B` [Selezione Ordina](src/algorithms/sorting/selection-sort)
+  * `B` [Inserimento Ordina](src/algorithms/sorting/insertion-sort)
+  * `B` [Ordinamento heap](src/algorithms/sorting/heap-sort)
+  * `B` [Unisci Ordina](src/algorithms/sorting/merge-sort)
   * `B` [Quicksort](src/algorithms/sorting/quick-sort) - in-place and non-in-place implementations
   * `B` [Shellsort](src/algorithms/sorting/shell-sort)
   * `B` [Counting Sort](src/algorithms/sorting/counting-sort)
