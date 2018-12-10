@@ -1,31 +1,23 @@
 ---
 layout: post
-title:  "Astar Search Algorithm"
+title:  "Lowest Common Ancestor Algorithm"
 author: Chang An Choi
-categories: [ Javascript, Algorithm, Graph ]
+categories: [ Javascript, Algorithm, Tree ]
 image: assets/images/AstarExampleEn.gif
 featured: true
 hidden: true
 ---
 
-# Astar Algorithm
+# Lowest Common Ancestor 
 
-In computer science, A* (pronounced "A star") is a computer algorithm that is widely used in pathfinding and graph traversal, which is the process of finding a path between multiple points, called "nodes". It enjoys widespread use due to its performance and accuracy. However, in practical travel-routing systems, it is generally outperformed by algorithms which can pre-process the graph to attain better performance,[1] although other work has found A* to be superior to other approaches.[2]
+In graph theory and computer science, the lowest common ancestor (LCA) of two nodes v and w in a tree or directed acyclic graph (DAG) T is the lowest (i.e. deepest) node that has both v and w as descendants, where we define each node to be a descendant of itself (so if v has a direct connection from w, w is the lowest common ancestor).
 
-Peter Hart, Nils Nilsson and Bertram Raphael of Stanford Research Institute (now SRI International) first published the algorithm in 1968.[3] It can be seen as an extension of Edsger Dijkstra's 1959 algorithm. A* achieves better performance by using heuristics to guide its search.
+The LCA of v and w in T is the shared ancestor of v and w that is located farthest from the root. Computation of lowest common ancestors may be useful, for instance, as part of a procedure for determining the distance between pairs of nodes in a tree: the distance from v to w can be computed as the distance from the root to v, plus the distance from the root to w, minus twice the distance from the root to their lowest common ancestor (Djidjev, Pantziou & Zaroliagis 1991). In ontologies, the lowest common ancestor is also known as the least common subsumer.
 
-A* is an informed search algorithm, or a best-first search, meaning that it is formulated in terms of weighted graphs: starting from a specific starting node of a graph, it aims to find a path to the given goal node having the smallest cost (least distance travelled, shortest time, etc.). It does this by maintaining a tree of paths originating at the start node and extending those paths one edge at a time until its termination criterion is satisfied.
+In a tree data structure where each node points to its parent, the lowest common ancestor can be easily determined by finding the first intersection of the paths from v and w to the root. In general, the computational time required for this algorithm is O(h) where h is the height of the tree (length of longest path from a leaf to the root). However, there exist several algorithms for processing trees so that lowest common ancestors may be found more quickly. Tarjan's off-line lowest common ancestors algorithm, for example, preprocesses a tree in linear time to provide constant-time LCA queries. In general DAGs, similar algorithms exist, but with super-linear complexity.
 
-At each iteration of its main loop, A* needs to determine which of its paths to extend. It does so based on the cost of the path and an estimate of the cost required to extend the path all the way to the goal. Specifically, A* selects the path that minimizes
+![LCA](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lowest_common_ancestor.svg/140px-Lowest_common_ancestor.svg.png)
 
-f(n)=g(n)+h(n)} f(n)=g(n)+h(n)
 
-where n is the next node on the path, g(n) is the cost of the path from the start node to n, and h(n) is a heuristic function that estimates the cost of the cheapest path from n to the goal. A* terminates when the path it chooses to extend is a path from start to goal or if there are no paths eligible to be extended.The heuristic function is problem-specific. If the heuristic function is admissible, meaning that it never overestimates the actual cost to get to the goal, A* is guaranteed to return a least-cost path from start to goal.
-
-![Astar Algorithm](https://upload.wikimedia.org/wikipedia/commons/9/98/AstarExampleEn.gif)
-
-![Astar Algorithm](https://upload.wikimedia.org/wikipedia/commons/5/5d/Astar_progress_animation.gif)
-
-###References
-Wikipedia(https://en.wikipedia.org/wiki/A*_search_algorithm)
-Wikipedia(https://ko.wikipedia.org/wiki/A*_알고리즘)
+### References
+Wikipedia(https://en.wikipedia.org/wiki/Lowest_common_ancestor) https://en.wikipedia.org/wiki/Lowest_common_ancestor
