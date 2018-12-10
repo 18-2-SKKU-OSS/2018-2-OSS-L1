@@ -133,11 +133,11 @@
           {% assign tags_list = site.categories %}  
           {% if tags_list.first[0] == null %}
             {% for tag in tags_list %} 
-              <a href="{{ site.baseurl }}/category/{{ tag }}">{{ tag | capitalize }} {{ site.tags[tag].size }}</a>
+              {{ tag | capitalize }} {{ site.tags[tag].size }}
             {% endfor %}
           {% else %}
             {% for tag in tags_list %} 
-              <a href="{{ site.baseurl }}/category/{{ tag[0] }}">{{ tag[0] | capitalize }} ({{ tag[1].size }})</a>
+              {{ tag[0] | capitalize }} ({{ tag[1].size }})
             {% endfor %}
           {% endif %}
         {% assign tags_list = nil %}
