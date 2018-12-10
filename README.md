@@ -11,6 +11,14 @@
     김민기 / 2014313107 / rlaalsrl7777@gmail.com / Minki-Kim95 / ROLL : 번역 수정, 알고리즘 추가(sleep sorting 등)
 
     김장영 / 2014314068 / kjy276@naver.com / kjy276 / ROLL : 알고리즘 추가(bipartite-matching 등), 기존 프로젝트 알고리즘 목록 조사
+    
+# Github page of Team L1
+
+    Our Static Page: https://18-2-skku-oss.github.io/2018-2-OSS-L1/
+
+    Our Page: https://github.com/18-2-SKKU-OSS/javascript-algorithms
+
+    Out Project Source: https://github.com/trekhleb/javascript-algorithms
 
 # JavaScript Algorithms and Data Structures
 
