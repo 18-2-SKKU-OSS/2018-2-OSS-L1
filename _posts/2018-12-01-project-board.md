@@ -3,11 +3,9 @@ layout: post
 title:  "프로젝트 보드 활동"
 author: Chang An Choi
 categories: [ activity ]
-image: "asset/images/board.png"
+image: "assets/images/board.png"
 ---
 
-
-> We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. 
 
 Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.
 
