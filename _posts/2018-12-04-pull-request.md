@@ -4,6 +4,8 @@ title:  "pull request 활동"
 author: 김윤지
 categories: [ activity ]
 image: assets/images/pr2.png
+featured: true
+hidden: true
 ---
 실제 프로젝트에 pull request를 보내고
 로봇의 검사를 통과하고

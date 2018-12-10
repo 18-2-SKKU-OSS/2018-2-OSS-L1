@@ -4,6 +4,8 @@ title:  "프로젝트 보드 활동"
 author: Chang An Choi
 categories: [ activity ]
 image: "assets/images/board.png"
+featured: true
+hidden: true
 ---
 
 

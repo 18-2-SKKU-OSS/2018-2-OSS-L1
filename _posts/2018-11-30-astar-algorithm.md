@@ -4,8 +4,6 @@ title:  "Astar Search Algorithm"
 author: Chang An Choi
 categories: [ Javascript, Algorithm, Graph ]
 image: assets/images/AstarExampleEn.gif
-featured: true
-hidden: true
 ---
 
 # Astar Algorithm

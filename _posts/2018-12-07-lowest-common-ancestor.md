@@ -4,8 +4,6 @@ title:  "Lowest Common Ancestor Algorithm"
 author: Chang An Choi
 categories: [ Javascript, Algorithm, Tree ]
 image: assets/images/LCA.png
-featured: true
-hidden: true
 ---
 
 # Lowest Common Ancestor 

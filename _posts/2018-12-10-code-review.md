@@ -4,6 +4,8 @@ title:  "Code Review 활동"
 author: 김윤지
 categories: [ activity ]
 image: assets/images/review.png
+featured: true
+hidden: true
 ---
 master repository에 pull request를 보내기 전에
 먼저 branch에서 pull request를 보내고

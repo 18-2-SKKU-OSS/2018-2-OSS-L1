@@ -4,8 +4,6 @@ title:  "README.ko-KR 파일 보완"
 author: Chang An Choi
 categories: [ Translation ]
 image: assets/images/trans.png
-featured: true
-hidden: true
 ---
 
 ### 기존의 README.ko-KR의 번역 오류 또는 미흡한 점을 보완
