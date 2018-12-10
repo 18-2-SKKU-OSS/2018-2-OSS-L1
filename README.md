@@ -18,7 +18,7 @@
 
    [Our Page](https://github.com/18-2-SKKU-OSS/javascript-algorithms)
 
-   [Out Project Source](https://github.com/trekhleb/javascript-algorithms)
+   [Our Project Source](https://github.com/trekhleb/javascript-algorithms)
 
 # JavaScript Algorithms and Data Structures
 
