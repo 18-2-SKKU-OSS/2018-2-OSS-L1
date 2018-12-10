@@ -25,7 +25,7 @@ comments: false
 - 팀 페이지 관리를 위한 gh-page branch 생성
 - Jekyll을 이용하여 팀 정적 페이지 생성
 - 팀 페이지 관리 및 게시글 작성
-- 위키 관리
+- 위키 내용 추가 및 관리
 
 ## 김민기
 - 2014313107 / rlaalsrl7777@gmail.com / Minki-Kim95
@@ -34,6 +34,7 @@ comments: false
 - EDIT and UPDATE ReadMe.ko-KR.md
 - ADD ReadMe.ja-JP.md
 - ADD ReadMe.it-IT.md
+- 위키 내용 정리
 
 ## 김장영
 - 2014314068 / kjy276@naver.com / kjy276
