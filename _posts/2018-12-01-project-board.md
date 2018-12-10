@@ -7,11 +7,15 @@ image: "assets/images/board.png"
 ---
 
 
-Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.
+#### Project를 3단계로 나누어 관리
 
-The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.
+To Do - 현재 하려고 계획중이거나 Project에 도움이 될 것으로 생각되어 누군가 맡아줬으면 하는 업무 목록
 
-The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?
+In Progress - 현재 개발 또는 진행중인 업무 목록
 
-We must remember that intelligence is not enough. Intelligence plus character--that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.
+Done - 작업이 끝난 업무 목록
 
+각 프로시저가 끝날 때마다 다음 프로시저로 드래그 해 상황을 한 눈에 알 수 있게 구성
+
+#### Project Board 링크
+[Project Board](https://github.com/18-2-SKKU-OSS/2018-2-OSS-L1/projects/1)
