@@ -14,7 +14,7 @@ export default function editDistance(set1, set2) {
                     dp[i][j] = j;  
                 else if (j==0) 
                     dp[i][j] = i; 
-                else if (str1.charAt(i-1) == str2.charAt(j-1)) 
+                else if (set1.charAt(i-1) == set2.charAt(j-1)) 
                     dp[i][j] = dp[i-1][j-1]; 
        
                 else
