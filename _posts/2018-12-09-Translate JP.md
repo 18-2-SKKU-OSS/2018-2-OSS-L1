@@ -4,6 +4,8 @@ title:  "ReadMe 일본어 번역"
 author: Kim Min ki
 categories: [ translate]
 image: assets/images/japaneses.png
+featured: true
+hidden: true
 ---
 
 ***

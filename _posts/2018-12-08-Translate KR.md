@@ -4,6 +4,8 @@ title:  "한국어 번역 오류 및 내용보강 활동 2"
 author: Kim Min ki
 categories: [ translate, activity ]
 image: assets/images/trans.png
+featured: true
+hidden: true
 ---
 
 ***
