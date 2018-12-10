@@ -29,8 +29,9 @@ comments: false
 
 ## 김민기
 - 2014313107 / rlaalsrl7777@gmail.com / Minki-Kim95
-- Add Sleep Sort 
-- EDIT ReadMe.ko-KR.md
+- Team discussion 기능을 통한 프로젝트 생성전 discussion활동
+- Add Sleep Sort algorithm
+- EDIT and UPDATE ReadMe.ko-KR.md
 - ADD ReadMe.ja-JP.md
 - ADD ReadMe.it-IT.md
 
