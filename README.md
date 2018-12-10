@@ -15,6 +15,8 @@
 # Github page of Team L1
 
    [Our Static Page](https://18-2-skku-oss.github.io/2018-2-OSS-L1/)
+   
+   [Our Static Page branch](https://github.com/18-2-SKKU-OSS/2018-2-OSS-L1/tree/gh-pages)
 
    [Our Page](https://github.com/18-2-SKKU-OSS/javascript-algorithms)
 
