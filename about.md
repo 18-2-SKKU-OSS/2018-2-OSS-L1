@@ -8,7 +8,11 @@ comments: false
 ## 최창안
 - 2012310793 / orist22@gmail.com / orist22
 - 팀장
-- Add A-star Algorithm  
+- 프로젝트 관리 및 업무 분배
+- Add A-star Algorithm
+- Add Lowest Common Ancestor Algorithm
+- README.ko-KR 보완
+- 알고리즘 설명 한글 번역
 
 ## 류민재
 - 2015310965 / lminjae0313@gmail.com / MinjaeLyou
