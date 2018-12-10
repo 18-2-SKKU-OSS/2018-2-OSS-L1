@@ -24,6 +24,7 @@ comments: false
 - Add Sleep Sort 
 - EDIT ReadMe.ko-KR.md
 - ADD ReadMe.ja-JP.md
+- ADD ReadMe.it-IT.md
 
 ## 김장영
 - 2014314068 / kjy276@naver.com / kjy276
