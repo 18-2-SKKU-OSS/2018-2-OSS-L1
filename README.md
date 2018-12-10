@@ -4,6 +4,7 @@
 저장소를 작업별로 구분하여 사용하기 위해 branch를 생성하였습니다.
 이 리드미는 팀 페이지용 branch인 gh-pages의 리드미 파일입니다.
 
+[Link](https://18-2-skku-oss.github.io/2018-2-OSS-L1/)
 
 ***
 
