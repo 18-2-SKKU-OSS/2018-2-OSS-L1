@@ -15,9 +15,12 @@ comments: false
 - Add Bogo/Bogobogo Sort
 
 ## 김윤지
-- 2016312595 / gunvo88@naver.com / yunjiyunji
-- Add huffman code
-- Create & Management a team page
+- 2016312595 / yunjiyunji1@naver.com / yunjiyunji
+- 허프만 코딩 알고리즘 추가
+- 허프만 코딩 알고리즘 풀리퀘스트 생성
+- Jekyll을 이용하여 팀 정적 페이지 생성
+- 팀 페이지 관리 및 게시글 작성
+- 위키 관리
 
 ## 김민기
 - 2014313107 / rlaalsrl7777@gmail.com / Minki-Kim95
