@@ -13,35 +13,43 @@
  * @param {BinaryTreeNode} rootNode
  * @param {Callbacks} [originalCallbacks]
  */
-function calcDepth = var function(node){
-	let depth = 0;
-	while (node.parent == null) {
-		node = node.parent;
-		depth += 1;
-	}
+function calcDepth(node) {
+  let depth = 0;
+  let tempNode = null;
+  tempNode = node;
+  while (tempNode.parent == null) {
+    tempNode = tempNode.parent;
+    depth += 1;
+  }
 
-	return depth;
+  return depth;
 }
 
-/*lowest common ancestor*/
+/* lowest common ancestor */
 export default function lca(rootNode, firstNode, secondNode) {
-	const firstDepth = calcDepth(firstNode);
-	const secondDepth = calcDepth(secondNode);
-	
-	for (int i = 0; i < Math.abs(firstDepth - secondDepth); i++) {
-		if (firstDepth > secondDepth) 
-			firstNode = firstNode.parent;
-		else
-			secondNode = secondNode.parent;
-	}
-	
-	if (firstNode == secondNode)
-		resultNode = firstNode;
+  const firstDepth = calcDepth(firstNode);
+  const secondDepth = calcDepth(secondNode);
+  let firstOne = null;
+  let secondOne = null;
+  firstOne = firstNode;
+  secondOne = secondNode;
 
-	while (firstNode != secondNode) {
-		firstNode = firstNode.parent;
-		secondNode = secondNode.parent;
-	}
+  for (let i = 0; i < Math.abs(firstDepth - secondDepth); i += 1) {
+    if (firstDepth > secondDepth) {
+      firstOne = firstOne.parent;
+    } else {
+      secondOne = secondOne.parent;
+    }
+  }
 
-	return firstNode;
+  if (firstNode === secondNode) {
+    return firstOne;
+  }
+
+  while (firstOne !== secondOne) {
+    firstOne = firstOne.parent;
+    secondOne = secondOne.parent;
+  }
+
+  return firstOne;
 }
