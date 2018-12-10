@@ -4,8 +4,6 @@ title:  "sleepSort"
 author: Kim Min ki
 categories: [ Javascript, Algorithm, Sorting  ]
 image: assets/images/sleep-sort-algorithm.jpg
-featured: true
-hidden: true
 ---
 ***
 슬립소트 알고리즘을 추가하였습니다.

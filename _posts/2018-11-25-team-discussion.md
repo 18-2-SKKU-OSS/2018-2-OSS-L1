@@ -4,6 +4,8 @@ title:  "Team discussion 활동"
 author: Kim Min ki
 categories: [ activity ]
 image: assets/images/discussion.PNG
+featured: true
+hidden: true
 ---
 팀 page의 discussions 기능을 이용하여 프로젝트가 생성되어
 issue를 이용하기 전 임시로 issue 활동을 하였다.
