@@ -14,20 +14,20 @@ discussion을 하였다.
 ***
 
 #### 프로젝트 변경
-[Team discussion](https://github.com/orgs/18-2-SKKU-OSS/teams/2018-2-oss-l1/discussions/1)
+[Team discussion1](https://github.com/orgs/18-2-SKKU-OSS/teams/2018-2-oss-l1/discussions/1)
 
 ***
 
 #### 프로젝트 기여 계획
-[Team discussion](https://github.com/orgs/18-2-SKKU-OSS/teams/2018-2-oss-l1/discussions/2)
+[Team discussion2](https://github.com/orgs/18-2-SKKU-OSS/teams/2018-2-oss-l1/discussions/2)
 
 ***
 
 #### 프로젝트 생성법 토의
-[Team discussion](https://github.com/orgs/18-2-SKKU-OSS/teams/2018-2-oss-l1/discussions/3)
+[Team discussion3](https://github.com/orgs/18-2-SKKU-OSS/teams/2018-2-oss-l1/discussions/3)
 
 
 ***
 
 #### Discussion 링크
-[Issue](https://github.com/orgs/18-2-SKKU-OSS/teams/2018-2-oss-l1/discussions)
+[Discussion](https://github.com/orgs/18-2-SKKU-OSS/teams/2018-2-oss-l1/discussions)
