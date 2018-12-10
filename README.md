@@ -18,7 +18,7 @@
    
    [Our Static Page branch](https://github.com/18-2-SKKU-OSS/2018-2-OSS-L1/tree/gh-pages)
 
-   [Our Page](https://github.com/18-2-SKKU-OSS/javascript-algorithms)
+   [Our Forked Page](https://github.com/18-2-SKKU-OSS/javascript-algorithms)
 
    [Our Project Source](https://github.com/trekhleb/javascript-algorithms)
 
