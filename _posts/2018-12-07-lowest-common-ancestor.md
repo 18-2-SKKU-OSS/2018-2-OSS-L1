@@ -3,7 +3,7 @@ layout: post
 title:  "Lowest Common Ancestor Algorithm"
 author: Chang An Choi
 categories: [ Javascript, Algorithm, Tree ]
-image: assets/images/LCA.png
+image: assets/images/AstarExampleEn.gif
 featured: true
 hidden: true
 ---
@@ -20,4 +20,4 @@ In a tree data structure where each node points to its parent, the lowest common
 
 
 ### References
-Wikipedia(https://en.wikipedia.org/wiki/Lowest_common_ancestor) https://en.wikipedia.org/wiki/Lowest_common_ancestor
+[Wikipedia(https://en.wikipedia.org/wiki/Lowest_common_ancestor)](https://en.wikipedia.org/wiki/Lowest_common_ancestor)
