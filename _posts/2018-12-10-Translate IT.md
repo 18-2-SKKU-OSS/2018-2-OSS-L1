@@ -4,8 +4,6 @@ title:  "ReadMe 이탈리아어 번역"
 author: Kim Min ki
 categories: [translate]
 image: assets/images/IT.jpg
-featured: true
-hidden: true
 ---
 
 ***
