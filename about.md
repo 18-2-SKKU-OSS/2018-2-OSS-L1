@@ -22,6 +22,7 @@ comments: false
 - 2016312595 / yunjiyunji1@naver.com / yunjiyunji
 - 허프만 코딩 알고리즘 추가
 - 허프만 코딩 알고리즘 풀리퀘스트 생성
+- 팀 페이지 관리를 위한 gh-page branch 생성
 - Jekyll을 이용하여 팀 정적 페이지 생성
 - 팀 페이지 관리 및 게시글 작성
 - 위키 관리
