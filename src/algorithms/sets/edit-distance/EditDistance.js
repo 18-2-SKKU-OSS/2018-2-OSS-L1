@@ -27,3 +27,9 @@ export default function editDistance(set1, set2) {
         return dp[m][n]; 
   
 }
+
+function min (x, y, z) {
+  if (x <= y && x <= z) return x;
+  if (y <= x && y <= z) return y;
+  else return z;
+}
