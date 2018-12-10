@@ -4,7 +4,11 @@
  * @return {string[]}
  */
 export default function editDistance(set1, set2) {
-  let dp[][] = new int[m+1][n+1]; 
+  //let dp[][] = new int[m+1][n+1]; 
+  let dp = new Array(m + 1);
+  for(let i = 0; i < m + 1; i += 1){
+    dp[i] = new Array(n + 1);
+  }
   for (let i=0; i<=m; i++) 
     { 
       for (let j=0; j<=n; j++) 
