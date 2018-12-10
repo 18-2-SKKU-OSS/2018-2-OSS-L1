@@ -31,6 +31,11 @@ authors:
     display_name: 김장영
     description: 
     gravatar: 
+  Kim Min ki:
+    name: 김민기
+    display_name: 김민기
+    description: "Add algorithm(sleepsort) / translation (Japanese, Italian)"
+    gravatar: 
     
 # Plugins
 plugins: 
