@@ -28,7 +28,6 @@ Unfortunately, it can only sort integers at the moment, but as soon as I acquire
 - [DEV](https://dev.to/sishaarrao/sleep-sort-where-theory-meets-sobering-reality-b3m)
 - [Prinston](https://www.cs.princeton.edu/courses/archive/fall13/cos226/lectures/52Tries.pdf)
 ***
-***
 
 #### ReadMe 파일
 
@@ -44,7 +43,12 @@ Sleep sort was presented anonymously on 4chan and has been discussed on Hacker N
 Time complexity is commonly estimated by counting the number of elementary operations performed by the algorithm, where an elementary operation takes a fixed amount of time to perform. Thus the amount of time taken and the number of elementary operations performed by the algorithm differ by at most a constant factor.
 
 Then we can't talk about the runtime complexity of this algorithm because time which the elementary operations take is so vastly different, that the time taken would differ by more than a constant factor.
-
+***
 ##### References
 
 [Rosettacode](https://www.rosettacode.org/wiki/Sorting_algorithms/Sleep_sort)
+***
+##### Pullrequest
+
+[pullrequest](https://github.com/18-2-SKKU-OSS/2018-2-OSS-L1/pull/23)
+***
