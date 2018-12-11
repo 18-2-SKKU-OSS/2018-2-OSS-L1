@@ -19,6 +19,11 @@ hidden: true
 ***
 
 
+#### 풀리퀘스트가 받아진 모습
+일본어 번역 README의 Pull request가 실제 사이트에 merge된 것을 확인할 수 있습니다.
+![walking]({{ site.baseurl }}/assets/images/pr5.png)
+![walking]({{ site.baseurl }}/assets/images/pr4.png)
+***
 
 
 #### 프로젝트의 다른 contributor와 댓글을 통한 소통
