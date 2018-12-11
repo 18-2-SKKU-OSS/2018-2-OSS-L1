@@ -8,7 +8,7 @@
 
 **시간 복잡도**: `O(log(n))` - 매번 반복문 실행 시 탐색 영역을 두 부분으로 나누므로
 
-## References
+## 참조
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 - [YouTube](https://www.youtube.com/watch?v=P3YID7liBug&index=29&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)

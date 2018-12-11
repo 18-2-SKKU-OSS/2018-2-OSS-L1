@@ -22,3 +22,12 @@ x - 목표값
 lo - arr[]의 시작 인덱스
 hi - arr[]의 마지막 인덱스
 ```
+
+## 복잡도
+
+**시간 복잡도**: `O(log(log(n))`
+
+## 참조
+
+- [GeeksForGeeks](https://www.geeksforgeeks.org/interpolation-search/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Interpolation_search)
