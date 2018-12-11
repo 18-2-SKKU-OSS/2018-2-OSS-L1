@@ -19,7 +19,7 @@ authors:
   류민재:
     name: 류민재
     display_name: "류민재"
-    description: "Bogo Sort 알고리즘을 추가하였습니다."
+    description: "Add algorithm(Bogo-sort, Bogobogo-sort, Edit Distance)"
     gravatar: 517ab59de535a39a401aadfbd1a0fe25
   Chang An Choi:
     name: 최창안
