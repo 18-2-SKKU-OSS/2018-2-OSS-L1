@@ -43,9 +43,10 @@ comments: false
 
 ## 김장영
 - 2014314068 / kjy276@naver.com / kjy276
+- 추가할 알고리즘 조사 및 역할 분배
 - Add Bipartite Matching
 - Add CCW Algorithm
-- 해당 알고리즘에 대한 Page 생성
+- 팀 페이지에 해당 알고리즘에 대한 Page 생성
 
 ## 공통
 - Knowing and fixing the latest issue (ex: knapsack algorithm error) 
