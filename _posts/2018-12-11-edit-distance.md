@@ -4,8 +4,6 @@ title:  "Edit Distance Algorithm"
 author: 류민재
 categories: [ Javascript, Algorithm, Set ]
 image: assets/images/EditDistance1.png
-featured: true
-hidden: true
 ---
 
 # Edit Distance
@@ -14,5 +12,8 @@ In computational linguistics and computer science, edit distance is a way of qua
 
 Different definitions of an edit distance use different sets of string operations. The Levenshtein distance operations are the removal, insertion, or substitution of a character in the string. Being the most common metric, the Levenshtein distance is usually what is meant by "edit distance".
 
-
+# Edit Distance Example
 ![walking]({{ site.baseurl }}/assets/images/EditDistance2.jpg)
+
+# Reference
+Wikipedia(https://en.wikipedia.org/wiki/Edit_distance)
