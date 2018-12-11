@@ -4,6 +4,8 @@ title:  "pull request 활동"
 author: 김윤지
 categories: [ activity ]
 image: assets/images/pr2.png
+featured: true
+hidden: true
 ---
 실제 프로젝트에 pull request를 보내고
 로봇의 검사를 통과하고
@@ -17,6 +19,13 @@ image: assets/images/pr2.png
 ***
 
 
+#### 풀리퀘스트가 받아진 모습
+일본어 번역 README의 Pull request가 실제 사이트에 merge된 것을 확인할 수 있습니다.
+![walking]({{ site.baseurl }}/assets/images/pr5.png)
+
+![walking]({{ site.baseurl }}/assets/images/pr4.png)
+
+***
 
 
 #### 프로젝트의 다른 contributor와 댓글을 통한 소통

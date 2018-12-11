@@ -4,8 +4,6 @@ title:  "Astar Search Algorithm"
 author: Chang An Choi
 categories: [ Javascript, Algorithm, Graph ]
 image: assets/images/AstarExampleEn.gif
-featured: true
-hidden: true
 ---
 
 # Astar Algorithm
@@ -26,6 +24,6 @@ where n is the next node on the path, g(n) is the cost of the path from the star
 
 ![Astar Algorithm](https://upload.wikimedia.org/wikipedia/commons/5/5d/Astar_progress_animation.gif)
 
-###References
-Wikipedia(https://en.wikipedia.org/wiki/A*_search_algorithm)
-Wikipedia(https://ko.wikipedia.org/wiki/A*_알고리즘)
+### References
+[Wikipedia(https://en.wikipedia.org/wiki/A*_search_algorithm)](https://en.wikipedia.org/wiki/A*_search_algorithm)
+[Wikipedia(https://ko.wikipedia.org/wiki/A*_알고리즘)](https://ko.wikipedia.org/wiki/A*_알고리즘)

@@ -4,8 +4,6 @@ title:  "허프만 부호화 알고리즘"
 author: 김윤지
 categories: [ Javascript, Algorithm, Greedy  ]
 image: assets/images/huffman.png
-featured: true
-hidden: true
 ---
 ***
 허프만 부호화 알고리즘을 추가하였습니다.
