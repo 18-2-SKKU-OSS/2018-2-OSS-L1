@@ -7,7 +7,7 @@
  * @param {number} y2
  * @param {number} x3
  * @param {number} y3
- * @return {number}
+ * @return {number} // 1 = CCW, -1 = CW, 0 = Collinear
  */
 export default function CounterClockWise(x1, y1, x2, y2, x3, y3) {
     

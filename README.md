@@ -11,6 +11,16 @@
     김민기 / 2014313107 / rlaalsrl7777@gmail.com / Minki-Kim95 / ROLL : 번역 수정, 알고리즘 추가(sleep sorting 등)
 
     김장영 / 2014314068 / kjy276@naver.com / kjy276 / ROLL : 알고리즘 추가(bipartite-matching 등), 기존 프로젝트 알고리즘 목록 조사
+    
+# Github page of Team L1
+
+   [Our Static Page](https://18-2-skku-oss.github.io/2018-2-OSS-L1/)
+   
+   [Our Static Page branch](https://github.com/18-2-SKKU-OSS/2018-2-OSS-L1/tree/gh-pages)
+
+   [Our Forked Page](https://github.com/18-2-SKKU-OSS/javascript-algorithms)
+
+   [Our Project Source](https://github.com/trekhleb/javascript-algorithms)
 
 # JavaScript Algorithms and Data Structures
 
@@ -31,7 +41,9 @@ _Read this in other languages:_
 [_Polski_](README.pl-PL.md),
 [_Français_](README.fr-FR.md),
 [_Español_](README.es-ES.md),
-[_Português_](README.pt-BR.md)
+[_Português_](README.pt-BR.md),
+[_日本語_](README.ja-JP.md),
+[_italiano_](README.it-IT.md),
 
 *☝ Note that this project is meant to be used for learning and researching purposes 
 only and it is **not** meant to be used for production.*
@@ -121,6 +133,7 @@ a set of rules that precisely define a sequence of operations.
   * `B` [Merge Sort](src/algorithms/sorting/merge-sort)
   * `B` [Quicksort](src/algorithms/sorting/quick-sort) - in-place and non-in-place implementations
   * `B` [Shellsort](src/algorithms/sorting/shell-sort)
+  * `?` [Sleepsort](src/algorithms/sorting/sleep-sort)
   * `B` [Counting Sort](src/algorithms/sorting/counting-sort)
   * `B` [Radix Sort](src/algorithms/sorting/radix-sort)
 * **Linked Lists**
