@@ -18,8 +18,8 @@ Different definitions of an edit distance use different sets of string operation
 # Time Complexity
 
 | Name                  | Best            | Average             | Worst               | Memory    | Stable    | Comments  |
-| --------------------- | :-------------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
-| **Edit Distance**     | mn              | mn                  | mn                  | mn        | Yes       |           |
+| --------------------- | :---------------------: | :---------------------: | :---------------------: | :---------------------: | :---------------------: | :---------------------: |
+| **Edit Distance**     |         mn              |     mn                  |     mn                  |                     mn        | Yes                     |                         |
 
 # Reference
 [Wikipedia](https://en.wikipedia.org/wiki/Edit_distance)
