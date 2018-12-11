@@ -38,7 +38,10 @@ comments: false
 
 ## 김장영
 - 2014314068 / kjy276@naver.com / kjy276
-- Add Bipartite Matching 
+- Add Bipartite Matching
+- Add CCW Algorithm
+- 해당 알고리즘에 대한 Page 생성
+- Reinforcement of readme using photo materials
 
 ## 공통
 - Knowing and fixing the latest issue (ex: knapsack algorithm error) 
