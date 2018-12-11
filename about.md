@@ -16,7 +16,12 @@ comments: false
 
 ## 류민재
 - 2015310965 / lminjae0313@gmail.com / MinjaeLyou
-- Add Bogo/Bogobogo Sort
+- Add Bogo Sort Algorithm
+- Add Bogobogo Sort Algorithm
+- Add Edit Distance Algorithm
+- Bogo Sort Algorith에 대해 풀리퀘스트 생성
+- 팀 페이지에 알고리즘 설명 포스트 작성
+- 팀 페이지에 팀 활동 포스트 작성
 
 ## 김윤지
 - 2016312595 / yunjiyunji1@naver.com / yunjiyunji
