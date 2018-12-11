@@ -11,4 +11,4 @@ A matching in a Bipartite Graph is a set of the edges chosen in such a way that 
 ![bipartite-matching](https://www.geeksforgeeks.org/wp-content/uploads/maximum_matching1.png)
 
 ### References
-![Wikipedia](https://en.wikipedia.org/wiki/Bipartite)
+![Wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)
