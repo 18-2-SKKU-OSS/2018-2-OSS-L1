@@ -2,8 +2,6 @@
 
 
 
-    최창안 / 2012310793 / orist22@gmail.com / orist22 / ROLL : 팀장, 업무 분배, 프로젝트 관리, 알고리즘 추가(astar algorithm 등)
-
     류민재 / 2015310965 / commj723@gmail.com / Minjae77 / ROLL : 알고리즘 추가(bogo sorting 등), 이슈 관리
 
     김윤지 / 2016312595 / gunvo88@naver.com / yunjiyunji / ROLL : WIKI 관리, TEAM PAGE 관리, 알고리즘 추가(huffman code 등)
